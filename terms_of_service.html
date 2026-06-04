@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terms of Service — SpoofDaily</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg:          #0D0D0D;
+    --surface:     #141414;
+    --surface2:    #1A1A1A;
+    --border:      #252525;
+    --accent:      #FF4D1C;
+    --accent-dim:  rgba(255,77,28,0.12);
+    --accent-glow: rgba(255,77,28,0.06);
+    --text:        #F0EDE6;
+    --text-2:      #A09A92;
+    --text-3:      #5C574F;
+    --cream:       #F0EDE6;
+    --amber:       #F59E0B;
+    --amber-dim:   rgba(245,158,11,0.1);
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.75;
+    font-size: 16px;
+    min-height: 100vh;
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+    background-size: 200px;
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.4;
+  }
+
+  header {
+    position: relative;
+    z-index: 1;
+    border-bottom: 1px solid var(--border);
+    padding: 28px 0 24px;
+    background: var(--surface);
+  }
+
+  .header-inner {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .logo-mark {
+    width: 40px; height: 40px;
+    background: var(--accent);
+    border-radius: 10px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 20px; flex-shrink: 0;
+  }
+
+  .logo-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px; font-weight: 900; letter-spacing: -0.4px;
+  }
+  .logo-text span { color: var(--accent); }
+  .header-sep { margin-left: auto; font-size: 12px; color: var(--text-3); letter-spacing: 0.5px; }
+
+  .hero {
+    position: relative; z-index: 1;
+    max-width: 800px; margin: 0 auto;
+    padding: 56px 24px 40px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .doc-tag {
+    display: inline-block;
+    font-size: 10px; font-weight: 500;
+    letter-spacing: 2px; text-transform: uppercase;
+    color: var(--amber);
+    border: 1px solid rgba(245,158,11,0.25);
+    background: var(--amber-dim);
+    padding: 4px 12px; border-radius: 20px; margin-bottom: 20px;
+  }
+
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(32px, 5vw, 48px);
+    font-weight: 900; line-height: 1.1;
+    letter-spacing: -1px; color: var(--cream); margin-bottom: 16px;
+  }
+
+  .meta-row {
+    display: flex; flex-wrap: wrap; gap: 20px;
+    font-size: 13px; color: var(--text-3); margin-top: 20px;
+  }
+  .meta-row span { display: flex; align-items: center; gap: 6px; }
+  .meta-row .dot { width: 4px; height: 4px; background: var(--amber); border-radius: 50%; }
+
+  .satire-box {
+    position: relative; z-index: 1;
+    max-width: 800px; margin: 32px auto 0; padding: 0 24px;
+  }
+
+  .satire-inner {
+    background: var(--amber-dim);
+    border: 1px solid rgba(245,158,11,0.3);
+    border-left: 3px solid var(--amber);
+    border-radius: 0 10px 10px 0;
+    padding: 16px 20px;
+    font-size: 13.5px; color: rgba(240,237,230,0.8); line-height: 1.65;
+  }
+  .satire-inner strong { color: var(--amber); }
+
+  .toc-wrap {
+    position: relative; z-index: 1;
+    max-width: 800px; margin: 40px auto 0; padding: 0 24px;
+  }
+
+  .toc {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 24px 28px;
+  }
+
+  .toc-title {
+    font-size: 11px; font-weight: 500;
+    letter-spacing: 1.5px; text-transform: uppercase;
+    color: var(--text-3); margin-bottom: 14px;
+  }
+
+  .toc ol {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 6px;
+    counter-reset: toc;
+  }
+  .toc li { counter-increment: toc; }
+  .toc a {
+    color: var(--text-2); text-decoration: none;
+    font-size: 13.5px; display: flex; align-items: center; gap: 8px;
+    padding: 4px 0; transition: color 0.2s;
+  }
+  .toc a::before {
+    content: counter(toc, decimal-leading-zero);
+    font-size: 10px; color: var(--text-3); min-width: 22px;
+  }
+  .toc a:hover { color: var(--accent); }
+
+  main {
+    position: relative; z-index: 1;
+    max-width: 800px; margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+
+  section {
+    margin-bottom: 52px; padding-bottom: 52px;
+    border-bottom: 1px solid var(--border);
+  }
+  section:last-child { border-bottom: none; margin-bottom: 0; }
+
+  .section-number {
+    font-size: 11px; font-weight: 500;
+    letter-spacing: 1.5px; text-transform: uppercase;
+    color: var(--accent); margin-bottom: 10px; display: block;
+  }
+
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(20px, 3vw, 26px);
+    font-weight: 700; line-height: 1.2;
+    letter-spacing: -0.3px; color: var(--cream); margin-bottom: 20px;
+  }
+
+  h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 17px; font-weight: 700;
+    color: var(--cream); margin: 28px 0 10px;
+  }
+
+  p { color: var(--text-2); margin-bottom: 14px; font-size: 15px; }
+  p:last-child { margin-bottom: 0; }
+
+  ul, ol { padding-left: 20px; margin-bottom: 14px; }
+  li { color: var(--text-2); font-size: 15px; margin-bottom: 6px; }
+  li::marker { color: var(--accent); }
+
+  .info-card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 12px; padding: 20px 22px; margin: 20px 0;
+  }
+  .info-card p { margin: 0; }
+
+  .warning-card {
+    background: var(--amber-dim);
+    border: 1px solid rgba(245,158,11,0.25);
+    border-left: 3px solid var(--amber);
+    border-radius: 0 10px 10px 0;
+    padding: 16px 20px; margin: 20px 0;
+    font-size: 14px; color: rgba(240,237,230,0.75); line-height: 1.65;
+  }
+  .warning-card strong { color: var(--amber); }
+
+  .highlight {
+    background: var(--accent-glow);
+    border: 1px solid rgba(255,77,28,0.15);
+    border-radius: 10px; padding: 16px 20px; margin: 20px 0;
+    font-size: 14px; color: var(--text-2);
+  }
+  .highlight strong { color: var(--cream); }
+
+  .rule-block {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 22px; margin: 16px 0;
+  }
+  .rule-block .rule-title {
+    font-size: 12px; font-weight: 500;
+    letter-spacing: 1px; text-transform: uppercase;
+    color: var(--accent); margin-bottom: 10px;
+  }
+  .rule-block p { margin: 0; font-size: 14px; }
+
+  .allowed { color: #4ade80; margin-right: 6px; }
+  .not-allowed { color: #f87171; margin-right: 6px; }
+
+  .contact-card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 14px; padding: 28px; margin-top: 20px;
+  }
+  .contact-card p { font-size: 15px; }
+  .contact-card a { color: var(--accent); text-decoration: none; }
+  .contact-card a:hover { text-decoration: underline; }
+
+  footer {
+    position: relative; z-index: 1;
+    border-top: 1px solid var(--border);
+    background: var(--surface);
+    padding: 28px 24px; text-align: center;
+  }
+
+  .footer-inner {
+    max-width: 800px; margin: 0 auto;
+    display: flex; flex-wrap: wrap;
+    align-items: center; justify-content: space-between;
+    gap: 12px; font-size: 12px; color: var(--text-3);
+  }
+  .footer-links { display: flex; gap: 20px; }
+  .footer-links a { color: var(--text-3); text-decoration: none; transition: color 0.2s; }
+  .footer-links a:hover { color: var(--accent); }
+
+  a { color: var(--accent); }
+
+  @media (max-width: 600px) {
+    .toc ol { grid-template-columns: 1fr; }
+    .footer-inner { flex-direction: column; text-align: center; }
+    .footer-links { justify-content: center; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="logo-mark">🗞</div>
+    <div class="logo-text">Spoof<span>Daily</span></div>
+    <span class="header-sep">Factictionary</span>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="doc-tag">Legal Document</div>
+  <h1>Terms of Service</h1>
+  <p style="color:var(--text-2);font-size:15px;max-width:580px;">
+    By using SpoofDaily, you agree to these terms. They're written in plain English
+    because legal jargon is almost as fake as our headlines — but less entertaining.
+  </p>
+  <div class="meta-row">
+    <span><span class="dot"></span> Effective: June 1, 2026</span>
+    <span><span class="dot"></span> Last updated: June 1, 2026</span>
+    <span><span class="dot"></span> App: SpoofDaily</span>
+    <span><span class="dot"></span> Developer: Factictionary</span>
+  </div>
+</div>
+
+<div class="satire-box">
+  <div class="satire-inner">
+    <strong>⚠️ The most important thing you will read here:</strong> Everything in SpoofDaily — every headline, every story, every quote, every image — is <strong>100% fictional, fabricated, and satirical</strong>. None of it is real news. It is created for comedy and entertainment purposes only. By using this app you confirm you understand this. Please do not share our content as real news.
+  </div>
+</div>
+
+<div class="toc-wrap">
+  <div class="toc">
+    <div class="toc-title">Contents</div>
+    <ol>
+      <li><a href="#t1">Acceptance of Terms</a></li>
+      <li><a href="#t2">What SpoofDaily Is</a></li>
+      <li><a href="#t3">Permitted & Prohibited Use</a></li>
+      <li><a href="#t4">Intellectual Property</a></li>
+      <li><a href="#t5">Advertisements</a></li>
+      <li><a href="#t6">Disclaimers</a></li>
+      <li><a href="#t7">Limitation of Liability</a></li>
+      <li><a href="#t8">Indemnification</a></li>
+      <li><a href="#t9">Governing Law</a></li>
+      <li><a href="#t10">Changes to Terms</a></li>
+      <li><a href="#t11">Termination</a></li>
+      <li><a href="#t12">Contact</a></li>
+    </ol>
+  </div>
+</div>
+
+<main>
+
+  <section id="t1">
+    <span class="section-number">01 — Agreement</span>
+    <h2>Acceptance of Terms</h2>
+    <p>By downloading, installing, or using the SpoofDaily mobile application ("App"), you ("User", "you") agree to be bound by these Terms of Service ("Terms") and our <a href="privacy_policy.html">Privacy Policy</a>, which is incorporated herein by reference.</p>
+    <p>If you do not agree to these Terms, do not use the App. Your continued use of the App following any modifications to these Terms constitutes your acceptance of the revised Terms.</p>
+    <p>These Terms constitute a legally binding agreement between you and Factictionary ("we", "us", "our"), the developer of SpoofDaily, registered in India.</p>
+  </section>
+
+  <section id="t2">
+    <span class="section-number">02 — Nature of Content</span>
+    <h2>What SpoofDaily Is</h2>
+
+    <div class="warning-card">
+      <strong>SATIRE NOTICE:</strong> SpoofDaily is a comedy and entertainment application. All content — including but not limited to headlines, articles, summaries, quotes, statistics, names of individuals or organisations, and images — is entirely fictional and created for satirical and humorous purposes. No content in SpoofDaily represents or purports to represent actual facts, events, people, or organisations.
+    </div>
+
+    <p>SpoofDaily is:</p>
+    <ul>
+      <li>A comedy entertainment app in the tradition of satirical publications</li>
+      <li>A platform for AI-generated fictional humour styled as news</li>
+      <li>Clearly and prominently labelled as fake/satirical throughout the app</li>
+    </ul>
+
+    <p>SpoofDaily is <strong style="color:var(--cream);">not</strong>:</p>
+    <ul>
+      <li>A news application or news source of any kind</li>
+      <li>A source of factual information about any topic</li>
+      <li>An attempt to deceive users or the public</li>
+      <li>Associated with any real news organisations</li>
+    </ul>
+
+    <div class="info-card">
+      <p style="font-style:italic;color:var(--text-2);">"The oldest form of commentary is satire. We stand in a long tradition of publications that use fictional absurdity to entertain and, occasionally, to make you think. We just have better particle effects." — The SpoofDaily Editorial Team (also fictional)</p>
+    </div>
+  </section>
+
+  <section id="t3">
+    <span class="section-number">03 — Use of the App</span>
+    <h2>Permitted &amp; Prohibited Use</h2>
+
+    <h3>You may:</h3>
+    <div class="rule-block">
+      <div class="rule-title">Permitted</div>
+      <ul style="margin:0;padding-left:20px;">
+        <li><span class="allowed">✓</span> Use the App for personal, non-commercial entertainment</li>
+        <li><span class="allowed">✓</span> Share individual headlines or story links for social/comedic purposes, provided they are clearly identified as satirical/fake content</li>
+        <li><span class="allowed">✓</span> Bookmark and save stories within the App</li>
+        <li><span class="allowed">✓</span> Share screenshots of the App with friends and on social media, provided context makes clear the content is satire</li>
+      </ul>
+    </div>
+
+    <h3>You must not:</h3>
+    <div class="rule-block">
+      <div class="rule-title">Prohibited</div>
+      <ul style="margin:0;padding-left:20px;">
+        <li><span class="not-allowed">✗</span> <strong style="color:var(--cream);">Share SpoofDaily content as real news or factual information</strong> — this is the most important prohibition. Presenting our fabricated headlines as real constitutes misinformation and may cause harm</li>
+        <li><span class="not-allowed">✗</span> Remove, obscure, or modify any satire disclaimer labels before sharing content</li>
+        <li><span class="not-allowed">✗</span> Use the App or its content for any commercial purpose without our prior written consent</li>
+        <li><span class="not-allowed">✗</span> Reproduce, distribute, or create derivative works from our content without attribution and without preserving satire disclaimers</li>
+        <li><span class="not-allowed">✗</span> Attempt to reverse-engineer, decompile, or extract the App's source code or encryption mechanisms</li>
+        <li><span class="not-allowed">✗</span> Use automated tools, scrapers, or bots to access the App's content</li>
+        <li><span class="not-allowed">✗</span> Use the App in any way that violates applicable laws or regulations</li>
+        <li><span class="not-allowed">✗</span> Interfere with the App's operation or attempt to circumvent its security features</li>
+        <li><span class="not-allowed">✗</span> Use the App to harass, defame, or harm any individual or group</li>
+      </ul>
+    </div>
+
+    <div class="highlight">
+      <strong>On sharing:</strong> You are welcome to share our fake headlines as jokes with friends — that's the whole point. Just don't present them as real. "Moon confirmed to be 73% paneer 😂" = great. The same headline shared in a WhatsApp group as breaking news with no context = not acceptable, and could get you in trouble with your in-laws.
+    </div>
+  </section>
+
+  <section id="t4">
+    <span class="section-number">04 — Intellectual Property</span>
+    <h2>Intellectual Property</h2>
+
+    <h3>Our intellectual property</h3>
+    <p>The SpoofDaily App, including its name, logo, design, code, user interface, and all content generated by or for the App (headlines, stories, AI-generated images), is owned by or licensed to Factictionary and is protected by applicable copyright, trademark, and other intellectual property laws.</p>
+    <p>The "SpoofDaily" name and the 🗞 logo are trademarks of Factictionary.</p>
+
+    <h3>Limited licence to you</h3>
+    <p>We grant you a limited, non-exclusive, non-transferable, revocable licence to use the App on your personal device(s) for personal, non-commercial purposes in accordance with these Terms.</p>
+
+    <h3>AI-generated content</h3>
+    <p>Content in the App is generated with the assistance of artificial intelligence tools. Such content is curated, reviewed, and published by Factictionary and constitutes our intellectual property. The fictional nature of this content does not affect our ownership rights over it.</p>
+
+    <h3>Third-party content</h3>
+    <p>The Playfair Display font is used under the SIL Open Font License. Google AdMob is subject to Google's own terms. All third-party trademarks referenced in satirical headlines are used for commentary purposes only and remain the property of their respective owners. Satirical references do not imply endorsement by or affiliation with those trademark owners.</p>
+
+    <h3>Real names in satire</h3>
+    <p>Where satirical content references public figures or organisations by name, such references are made in the tradition of satire and commentary protected under applicable law. SpoofDaily does not intend to defame any individual or organisation. If you believe a specific piece of content is defamatory, please contact us immediately at <a href="mailto:legal@factictionary.in">legal@factictionary.in</a>.</p>
+  </section>
+
+  <section id="t5">
+    <span class="section-number">05 — Advertising</span>
+    <h2>Advertisements</h2>
+    <p>SpoofDaily is free to use and is supported by advertising served through Google AdMob. By using the App, you consent to the display of advertisements.</p>
+    <p>Advertisements displayed in the App are served by Google AdMob and are governed by Google's advertising policies. Factictionary does not control the content of individual advertisements, though we have configured our ad settings to request family-safe, image-based ad creatives.</p>
+    <p>We are not responsible for any products, services, or information promoted in third-party advertisements. Advertisements do not represent an endorsement by SpoofDaily or Factictionary.</p>
+    <p>You may opt out of personalised advertising as described in our Privacy Policy. You cannot opt out of seeing advertisements entirely, as they fund the free operation of the App.</p>
+  </section>
+
+  <section id="t6">
+    <span class="section-number">06 — Disclaimers</span>
+    <h2>Disclaimers</h2>
+
+    <div class="warning-card">
+      <strong>CONTENT DISCLAIMER:</strong> ALL CONTENT IN SPOOFDAY IS 100% FICTIONAL AND CREATED FOR ENTERTAINMENT PURPOSES ONLY. ANY RESEMBLANCE TO REAL EVENTS, PERSONS LIVING OR DEAD, OR ACTUAL ORGANISATIONS IS PURELY COINCIDENTAL. SPOOFDAY IS NOT A NEWS SOURCE AND SHOULD NEVER BE TREATED AS ONE.
+    </div>
+
+    <h3>No warranties</h3>
+    <p>The App is provided "as is" and "as available" without warranties of any kind, either express or implied, including but not limited to:</p>
+    <ul>
+      <li>Warranties of merchantability or fitness for a particular purpose</li>
+      <li>Warranties that the App will be available without interruption</li>
+      <li>Warranties that content will be updated on any particular schedule</li>
+      <li>Warranties of accuracy (the content is intentionally inaccurate — it's satire)</li>
+    </ul>
+
+    <h3>Service availability</h3>
+    <p>We do not guarantee that the App will be available at all times. The daily content feed depends on GitHub's infrastructure and our batch processing pipeline. We will make reasonable efforts to ensure daily content updates but do not guarantee uninterrupted service.</p>
+
+    <h3>Third-party links</h3>
+    <p>The App may include links to third-party websites or services (such as when sharing content). We are not responsible for the content, privacy practices, or terms of any third-party services.</p>
+  </section>
+
+  <section id="t7">
+    <span class="section-number">07 — Liability</span>
+    <h2>Limitation of Liability</h2>
+    <p>To the maximum extent permitted by applicable law, Factictionary and its officers, directors, employees, and agents shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from:</p>
+    <ul>
+      <li>Your use of or inability to use the App</li>
+      <li>Any reliance on content in the App (which is, again, entirely fake)</li>
+      <li>Any sharing of App content in a manner that causes harm</li>
+      <li>Temporary unavailability of the App or content feed</li>
+      <li>Any third-party advertisements displayed in the App</li>
+    </ul>
+    <p>Our total liability to you for any claim arising from these Terms or your use of the App shall not exceed INR 100 (one hundred Indian rupees) — which is approximately what a good cup of chai costs and is, coincidentally, what our content is worth if you take it literally.</p>
+
+    <div class="highlight">
+      <strong>Practical note:</strong> If you lose money, relationships, or credibility because you shared one of our fake headlines as real news, that is on you, not us. We have five disclaimers in the app. We tried.
+    </div>
+  </section>
+
+  <section id="t8">
+    <span class="section-number">08 — Indemnification</span>
+    <h2>Indemnification</h2>
+    <p>You agree to indemnify, defend, and hold harmless Factictionary, its officers, directors, employees, and agents from and against any claims, liabilities, damages, losses, costs, and expenses (including reasonable legal fees) arising from:</p>
+    <ul>
+      <li>Your use of the App in violation of these Terms</li>
+      <li>Your sharing of App content as real or factual news</li>
+      <li>Your violation of any applicable law or the rights of any third party</li>
+      <li>Any claim by a third party arising from your use of the App</li>
+    </ul>
+  </section>
+
+  <section id="t9">
+    <span class="section-number">09 — Governing Law</span>
+    <h2>Governing Law &amp; Dispute Resolution</h2>
+    <p>These Terms are governed by and construed in accordance with the laws of India, without regard to its conflict of law provisions.</p>
+    <p>Any dispute arising from these Terms or your use of the App shall first be attempted to be resolved through good-faith negotiation. If unresolved, disputes shall be submitted to the exclusive jurisdiction of the courts of Bengaluru, Karnataka, India.</p>
+    <p>For users in the European Union or other jurisdictions with mandatory consumer protection laws, nothing in these Terms shall limit your rights under applicable mandatory law.</p>
+
+    <h3>App Store terms</h3>
+    <p>Your use of SpoofDaily on iOS is also subject to Apple's Terms of Service. Apple is not a party to these Terms and has no responsibility for the App or its content. On Android, Google's Play Store terms also apply. In the event of a conflict between these Terms and Apple's or Google's terms, Apple's or Google's terms shall prevail to the extent of the conflict.</p>
+  </section>
+
+  <section id="t10">
+    <span class="section-number">10 — Updates</span>
+    <h2>Changes to Terms</h2>
+    <p>We reserve the right to modify these Terms at any time. When we make material changes, we will update the "Last updated" date at the top of this page and may notify you via an in-app message.</p>
+    <p>Your continued use of the App after changes become effective constitutes your acceptance of the revised Terms. If you do not agree with the revised Terms, you should stop using the App and uninstall it.</p>
+    <p>We will not make changes to these Terms that retroactively reduce your existing rights without providing reasonable notice.</p>
+  </section>
+
+  <section id="t11">
+    <span class="section-number">11 — Termination</span>
+    <h2>Termination</h2>
+    <p>You may stop using SpoofDaily at any time by uninstalling the App from your device.</p>
+    <p>We reserve the right to discontinue the App or any part of it at any time, with or without notice, for any reason including but not limited to operational, technical, or commercial reasons.</p>
+    <p>If we reasonably believe you are using the App in violation of these Terms — particularly by sharing content as real news in a manner that causes or risks causing public harm — we reserve the right to take any lawful action available to us.</p>
+    <p>Provisions that by their nature should survive termination (including Sections 4, 6, 7, 8, and 9) shall survive any termination of these Terms.</p>
+  </section>
+
+  <section id="t12">
+    <span class="section-number">12 — Contact</span>
+    <h2>Contact Us</h2>
+    <p>For questions about these Terms, to report content concerns, or for any legal matters:</p>
+
+    <div class="contact-card">
+      <p><strong style="color:var(--cream);">Factictionary</strong></p>
+      <p style="margin-top:12px;">General queries: <a href="mailto:factictionary@gmail.com">factictionary@gmail.com</a></p>
+      <p>Legal / content concerns: <a href="mailto:factictionary@gmail.com">factictionary@gmail.com</a></p>
+      <p>Support: <a href="mailto:factictionary@gmail.com">factictionary@gmail.com</a></p>
+      <p>Website: <a href="https://www.factictionary.in" target="_blank">www.factictionary.in</a></p>
+      <p style="margin-top:16px;font-size:13px;color:var(--text-3);">
+        We aim to respond to all legal and content concern emails within 5 business days.<br>
+        For urgent defamation or misuse concerns, please mark your subject line <strong style="color:var(--cream);">URGENT: Legal</strong>.
+      </p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <span>© 2026 Factictionary. All rights reserved.</span>
+    <div class="footer-links">
+      <a href="privacy_policy.html">Privacy Policy</a>
+      <a href="terms_of_service.html">Terms of Service</a>
+      <a href="mailto:factictionary@gmail.com">Support</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
