@@ -1,0 +1,77 @@
+{
+  "items": [
+    {
+      "id": "001",
+      "headline": "Tara Khannara spotted impeaches",
+      "summary": "Sources say nobody was surprised",
+      "fullBody": "According to leaked documents Tara Khannara spotted impeaches Adding to the confusion, company denied everything then apologized More details as they emerge.",
+      "category": "entertainment",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/001.jpg",
+      "publishedAt": "21 hrs ago",
+      "readTimeSeconds": 95,
+      "tags": [
+        "Breaking",
+        "Celebrity"
+      ],
+      "isBreaking": true
+    },
+    {
+      "id": "002",
+      "headline": "FakeBook launches an overly honest couch",
+      "summary": "Sources say the janitor quit in protest",
+      "fullBody": "Social media exploded when FakeBook launches an overly honest couch Adding to the confusion, CEO said 'it's a feature not a bug' The internet has already moved on.",
+      "category": "tech",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/002.jpg",
+      "publishedAt": "12 hrs ago",
+      "readTimeSeconds": 82,
+      "tags": [
+        "Breaking",
+        "Tech"
+      ],
+      "isBreaking": true
+    },
+    {
+      "id": "003",
+      "headline": "Hole Foods launches a mirror that gives unsolicited advice",
+      "summary": "Sources say everyone noticed too much",
+      "fullBody": "History was made when Hole Foods launches a mirror that gives unsolicited advice Strangely enough, nobody noticed More details as they emerge.",
+      "category": "tech",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/003.jpg",
+      "publishedAt": "3 hrs ago",
+      "readTimeSeconds": 85,
+      "tags": [
+        "Tech"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "004",
+      "headline": "Leonardo DiCapriSun spotted vetoes",
+      "summary": "Sources say stock up 4000%",
+      "fullBody": "In a bizarre turn of events Leonardo DiCapriSun spotted vetoes Adding to the confusion, lawyers advised 'don't talk about it' The internet has already moved on.",
+      "category": "entertainment",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/004.jpg",
+      "publishedAt": "22 hrs ago",
+      "readTimeSeconds": 106,
+      "tags": [
+        "Breaking",
+        "Celebrity"
+      ],
+      "isBreaking": true
+    },
+    {
+      "id": "005",
+      "headline": "Florida man has a existential crisis about a goose with an economics degree",
+      "summary": "Sources say ceo said 'it's a feature not a bug'",
+      "fullBody": "History was made when Florida man has a existential crisis about a goose with an economics degree Meanwhile, company denied everything then apologized The internet has already moved on.",
+      "category": "weird",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/005.jpg",
+      "publishedAt": "3 hrs ago",
+      "readTimeSeconds": 69,
+      "tags": [
+        "Weird"
+      ],
+      "isBreaking": false
+    }
+  ]
+}
