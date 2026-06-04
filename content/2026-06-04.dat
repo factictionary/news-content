@@ -1,4 +1,5 @@
-[
+{
+  "items": [
   {
     "id": "001",
     "headline": "Unsung Inc. Launches SmartFridge That Criticizes Your Snack Choices",
@@ -600,3 +601,4 @@
     "isBreaking": false
   }
 ]
+}
