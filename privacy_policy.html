@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — SpoofDaily</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg:          #0D0D0D;
+    --surface:     #141414;
+    --surface2:    #1A1A1A;
+    --border:      #252525;
+    --accent:      #FF4D1C;
+    --accent-dim:  rgba(255,77,28,0.12);
+    --accent-glow: rgba(255,77,28,0.06);
+    --text:        #F0EDE6;
+    --text-2:      #A09A92;
+    --text-3:      #5C574F;
+    --cream:       #F0EDE6;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.75;
+    font-size: 16px;
+    min-height: 100vh;
+  }
+
+  /* ── noise texture overlay ── */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+    background-size: 200px;
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.4;
+  }
+
+  /* ── header ── */
+  header {
+    position: relative;
+    z-index: 1;
+    border-bottom: 1px solid var(--border);
+    padding: 28px 0 24px;
+    background: var(--surface);
+  }
+
+  .header-inner {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .logo-mark {
+    width: 40px;
+    height: 40px;
+    background: var(--accent);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    flex-shrink: 0;
+  }
+
+  .logo-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: -0.4px;
+  }
+  .logo-text span { color: var(--accent); }
+
+  .header-sep { margin-left: auto; font-size: 12px; color: var(--text-3); letter-spacing: 0.5px; }
+
+  /* ── hero ── */
+  .hero {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 56px 24px 40px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .doc-tag {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--accent);
+    border: 1px solid var(--accent-dim);
+    background: var(--accent-dim);
+    padding: 4px 12px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(32px, 5vw, 48px);
+    font-weight: 900;
+    line-height: 1.1;
+    letter-spacing: -1px;
+    color: var(--cream);
+    margin-bottom: 16px;
+  }
+
+  .meta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 13px;
+    color: var(--text-3);
+    margin-top: 20px;
+  }
+
+  .meta-row span { display: flex; align-items: center; gap: 6px; }
+  .meta-row .dot { width: 4px; height: 4px; background: var(--accent); border-radius: 50%; }
+
+  /* ── disclaimer box ── */
+  .disclaimer {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    margin: 32px auto 0;
+    padding: 0 24px;
+  }
+
+  .disclaimer-inner {
+    background: var(--accent-dim);
+    border: 1px solid rgba(255,77,28,0.25);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 10px 10px 0;
+    padding: 14px 18px;
+    font-size: 13px;
+    color: rgba(240,237,230,0.75);
+    line-height: 1.6;
+  }
+
+  .disclaimer-inner strong { color: var(--accent); font-weight: 500; }
+
+  /* ── TOC ── */
+  .toc-wrap {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    margin: 40px auto 0;
+    padding: 0 24px;
+  }
+
+  .toc {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 24px 28px;
+  }
+
+  .toc-title {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--text-3);
+    margin-bottom: 14px;
+  }
+
+  .toc ol {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 6px;
+    counter-reset: toc;
+  }
+
+  .toc li { counter-increment: toc; }
+
+  .toc a {
+    color: var(--text-2);
+    text-decoration: none;
+    font-size: 13.5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 0;
+    transition: color 0.2s;
+  }
+
+  .toc a::before {
+    content: counter(toc, decimal-leading-zero);
+    font-size: 10px;
+    color: var(--text-3);
+    min-width: 22px;
+  }
+
+  .toc a:hover { color: var(--accent); }
+
+  /* ── main content ── */
+  main {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+
+  section {
+    margin-bottom: 52px;
+    padding-bottom: 52px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  section:last-child { border-bottom: none; margin-bottom: 0; }
+
+  .section-number {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(20px, 3vw, 26px);
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.3px;
+    color: var(--cream);
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--cream);
+    margin: 28px 0 10px;
+  }
+
+  p { color: var(--text-2); margin-bottom: 14px; font-size: 15px; }
+  p:last-child { margin-bottom: 0; }
+
+  ul, ol { padding-left: 20px; margin-bottom: 14px; }
+  li { color: var(--text-2); font-size: 15px; margin-bottom: 6px; }
+  li::marker { color: var(--accent); }
+
+  /* ── info card ── */
+  .info-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 22px;
+    margin: 20px 0;
+  }
+
+  .info-card p { margin: 0; }
+
+  /* ── table ── */
+  .table-wrap { overflow-x: auto; margin: 20px 0; border-radius: 12px; border: 1px solid var(--border); }
+
+  table { width: 100%; border-collapse: collapse; }
+
+  thead { background: var(--surface2); }
+
+  th {
+    text-align: left;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--text-3);
+    padding: 12px 16px;
+  }
+
+  td {
+    padding: 12px 16px;
+    font-size: 14px;
+    color: var(--text-2);
+    border-top: 1px solid var(--border);
+    vertical-align: top;
+  }
+
+  tr:last-child td { border-bottom: none; }
+
+  td:first-child { color: var(--cream); font-weight: 400; }
+
+  .yes { color: #4ade80; }
+  .no  { color: var(--text-3); }
+
+  /* ── highlight box ── */
+  .highlight {
+    background: var(--accent-glow);
+    border: 1px solid rgba(255,77,28,0.15);
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin: 20px 0;
+    font-size: 14px;
+    color: var(--text-2);
+  }
+  .highlight strong { color: var(--cream); }
+
+  /* ── contact card ── */
+  .contact-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 28px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .contact-info p { margin: 0; font-size: 15px; }
+  .contact-info a { color: var(--accent); text-decoration: none; }
+  .contact-info a:hover { text-decoration: underline; }
+
+  /* ── footer ── */
+  footer {
+    position: relative;
+    z-index: 1;
+    border-top: 1px solid var(--border);
+    background: var(--surface);
+    padding: 28px 24px;
+    text-align: center;
+  }
+
+  .footer-inner {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    font-size: 12px;
+    color: var(--text-3);
+  }
+
+  .footer-links { display: flex; gap: 20px; }
+  .footer-links a { color: var(--text-3); text-decoration: none; transition: color 0.2s; }
+  .footer-links a:hover { color: var(--accent); }
+
+  a { color: var(--accent); }
+
+  @media (max-width: 600px) {
+    .toc ol { grid-template-columns: 1fr; }
+    .contact-card { flex-direction: column; }
+    .footer-inner { flex-direction: column; text-align: center; }
+    .footer-links { justify-content: center; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="logo-mark">🗞</div>
+    <div class="logo-text">Spoof<span>Daily</span></div>
+    <span class="header-sep">Factictionary</span>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="doc-tag">Legal Document</div>
+  <h1>Privacy Policy</h1>
+  <p style="color:var(--text-2);font-size:15px;max-width:560px;">
+    We believe in being straightforward about data. SpoofDaily collects very little,
+    stores even less, and never sells anything about you. Here's the full picture.
+  </p>
+  <div class="meta-row">
+    <span><span class="dot"></span> Effective: June 1, 2026</span>
+    <span><span class="dot"></span> Last updated: June 1, 2026</span>
+    <span><span class="dot"></span> App: SpoofDaily</span>
+    <span><span class="dot"></span> Developer: Factictionary</span>
+  </div>
+</div>
+
+<div class="disclaimer">
+  <div class="disclaimer-inner">
+    <strong>Quick summary:</strong> SpoofDaily does not require account registration. We do not collect your name, email, or location. The app serves ads via Google AdMob, which uses your device's Advertising ID. That's the only third-party data sharing. Read on for the complete details.
+  </div>
+</div>
+
+<div class="toc-wrap">
+  <div class="toc">
+    <div class="toc-title">Contents</div>
+    <ol>
+      <li><a href="#s1">Information We Collect</a></li>
+      <li><a href="#s2">How We Use Information</a></li>
+      <li><a href="#s3">Third-Party Services</a></li>
+      <li><a href="#s4">Data Storage & Security</a></li>
+      <li><a href="#s5">Your Rights & Choices</a></li>
+      <li><a href="#s6">Children's Privacy</a></li>
+      <li><a href="#s7">Changes to This Policy</a></li>
+      <li><a href="#s8">Contact Us</a></li>
+    </ol>
+  </div>
+</div>
+
+<main>
+
+  <section id="s1">
+    <span class="section-number">01 — Information</span>
+    <h2>Information We Collect</h2>
+
+    <p>SpoofDaily is designed to be as privacy-friendly as possible. We do not require you to create an account, log in, or provide any personal information to use the app.</p>
+
+    <h3>Information collected automatically</h3>
+    <p>When you use SpoofDaily, the following information is collected automatically by our ad partner (Google AdMob):</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Data Type</th><th>Purpose</th><th>Who Collects</th><th>Stored on Device</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Advertising ID (GAID / IDFA)</td><td>Ad personalisation & frequency capping</td><td>Google AdMob</td><td class="no">No — AdMob servers</td></tr>
+          <tr><td>Ad interaction events (clicks, impressions)</td><td>Ad performance measurement</td><td>Google AdMob</td><td class="no">No — AdMob servers</td></tr>
+          <tr><td>IP address (approximate)</td><td>Ad geo-targeting</td><td>Google AdMob</td><td class="no">No — AdMob servers</td></tr>
+          <tr><td>Device type & OS version</td><td>Ad compatibility</td><td>Google AdMob</td><td class="no">No — AdMob servers</td></tr>
+          <tr><td>App interaction data (screens viewed, swipe count)</td><td>Ad relevance</td><td>Google AdMob</td><td class="no">No — AdMob servers</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Information stored locally on your device</h3>
+    <p>SpoofDaily stores the following data locally using your device's storage (SharedPreferences). This data never leaves your device and is not transmitted to us or any third party:</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Data</th><th>Purpose</th><th>Sent to server?</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Today's news feed cache (encrypted JSON)</td><td>Offline reading</td><td class="no">No</td></tr>
+          <tr><td>Sound on/off preference</td><td>App settings</td><td class="no">No</td></tr>
+          <tr><td>Bookmarked article IDs</td><td>Saved stories feature</td><td class="no">No</td></tr>
+          <tr><td>Last cache date</td><td>Determine when to refresh feed</td><td class="no">No</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Information we do NOT collect</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Data Type</th><th>Collected?</th></tr></thead>
+        <tbody>
+          <tr><td>Name or email address</td><td class="no">❌ Never</td></tr>
+          <tr><td>Phone number</td><td class="no">❌ Never</td></tr>
+          <tr><td>Precise location (GPS)</td><td class="no">❌ Never</td></tr>
+          <tr><td>Contacts or address book</td><td class="no">❌ Never</td></tr>
+          <tr><td>Photos, camera, or microphone</td><td class="no">❌ Never</td></tr>
+          <tr><td>Biometric data</td><td class="no">❌ Never</td></tr>
+          <tr><td>Financial information</td><td class="no">❌ Never</td></tr>
+          <tr><td>Health data</td><td class="no">❌ Never</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="s2">
+    <span class="section-number">02 — Usage</span>
+    <h2>How We Use Information</h2>
+    <p>Factictionary (the developer of SpoofDaily) does not receive, process, or use any personal data from users. We do not operate a backend server that receives user data.</p>
+    <p>The only data processing that occurs is by Google AdMob, solely for the purpose of serving and measuring advertisements within the app. We do not use any data to build user profiles, make automated decisions about users, or share data with any party other than Google AdMob as described in Section 3.</p>
+
+    <div class="highlight">
+      <strong>Plain language:</strong> We get nothing. AdMob gets your Advertising ID to show you relevant ads. That's the full extent of it.
+    </div>
+  </section>
+
+  <section id="s3">
+    <span class="section-number">03 — Third Parties</span>
+    <h2>Third-Party Services</h2>
+
+    <h3>Google AdMob</h3>
+    <p>SpoofDaily uses Google AdMob to display advertisements. AdMob is operated by Google LLC and is subject to Google's privacy policy.</p>
+
+    <div class="info-card">
+      <p><strong style="color:var(--cream);">Google Privacy Policy:</strong><br>
+      <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></p>
+    </div>
+
+    <p>AdMob may use your device's Advertising Identifier (Android Advertising ID on Android, IDFA on iOS) to serve personalised advertisements. You can opt out of personalised ads at any time — see Section 5.</p>
+
+    <h3>GitHub (Content Delivery)</h3>
+    <p>The app's daily news feed is fetched from a GitHub repository via HTTPS. This is a standard HTTP request; GitHub may log the request IP address in accordance with their own privacy policy. No personal information is sent in this request.</p>
+
+    <div class="info-card">
+      <p><strong style="color:var(--cream);">GitHub Privacy Statement:</strong><br>
+      <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank">https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement</a></p>
+    </div>
+
+    <h3>No other third-party SDKs</h3>
+    <p>SpoofDaily does not include any analytics SDKs (Firebase Analytics, Mixpanel, etc.), social media SDKs, crash reporting services, or any other third-party data collection tools beyond those listed above.</p>
+  </section>
+
+  <section id="s4">
+    <span class="section-number">04 — Security</span>
+    <h2>Data Storage &amp; Security</h2>
+
+    <h3>Encrypted content</h3>
+    <p>The daily news feed fetched from our servers is encrypted using AES-256-CBC with a daily rotating key. The cached content stored on your device is stored in your app's private SharedPreferences storage, which is only accessible to SpoofDaily.</p>
+
+    <h3>Transmission security</h3>
+    <p>All network communication by SpoofDaily uses HTTPS (TLS 1.2 or higher). Plain HTTP requests are not permitted by the app's network configuration.</p>
+
+    <h3>No central server</h3>
+    <p>Factictionary does not operate a user-facing backend server. There is no database containing user accounts, preferences, or behaviour data held by us. Your data is only on your device and on Google's AdMob servers.</p>
+  </section>
+
+  <section id="s5">
+    <span class="section-number">05 — Your Rights</span>
+    <h2>Your Rights &amp; Choices</h2>
+
+    <h3>Opt out of personalised ads</h3>
+    <p>You can opt out of interest-based advertising at any time:</p>
+    <ul>
+      <li><strong>Android:</strong> Settings → Google → Ads → Opt out of Ads Personalisation</li>
+      <li><strong>iOS:</strong> Settings → Privacy & Security → Tracking → disable "Allow Apps to Request to Track"</li>
+      <li><strong>Google Ad Settings:</strong> <a href="https://adssettings.google.com" target="_blank">adssettings.google.com</a></li>
+    </ul>
+    <p>When you opt out, you will still see ads in SpoofDaily — they will simply be less personalised.</p>
+
+    <h3>Reset your Advertising ID</h3>
+    <ul>
+      <li><strong>Android:</strong> Settings → Google → Ads → Reset Advertising ID</li>
+      <li><strong>iOS:</strong> Settings → Privacy & Security → Tracking → (reset available per-app)</li>
+    </ul>
+
+    <h3>Delete locally stored data</h3>
+    <p>You can delete all locally stored app data (cached feed, preferences, bookmarks) by:</p>
+    <ul>
+      <li><strong>Android:</strong> Settings → Apps → SpoofDaily → Storage → Clear Data</li>
+      <li><strong>iOS:</strong> Delete and reinstall the app</li>
+    </ul>
+
+    <h3>Request deletion of AdMob data</h3>
+    <p>To request deletion of data held by Google AdMob, please visit: <a href="https://myaccount.google.com/data-and-privacy" target="_blank">myaccount.google.com/data-and-privacy</a></p>
+
+    <h3>GDPR (European Users)</h3>
+    <p>If you are located in the European Economic Area, you have rights under the General Data Protection Regulation (GDPR) including the right to access, rectify, erase, and port your data. Since Factictionary holds no personal data, requests relating to AdMob data should be directed to Google. For any other privacy requests, contact us at the address in Section 8.</p>
+
+    <h3>CCPA (California Users)</h3>
+    <p>California residents have rights under the California Consumer Privacy Act. SpoofDaily does not sell personal information. The sharing of Advertising ID data with Google AdMob constitutes "sharing" under CCPA for cross-context behavioural advertising purposes. You may opt out via the ad settings described above.</p>
+  </section>
+
+  <section id="s6">
+    <span class="section-number">06 — Children</span>
+    <h2>Children's Privacy</h2>
+    <p>SpoofDaily is not directed at children under the age of 13 and is not designed or intended for use by children. We do not knowingly collect any personal information from children under 13.</p>
+    <p>Our content rating is Everyone / All Ages because the satire content is clean and family-friendly. However, the advertising within the app is standard Google AdMob advertising not configured under COPPA child-directed treatment.</p>
+    <p>If you believe a child under 13 has used the app, please contact us at <a href="mailto:factictionary@gmail.com">factictionary@gmail.com</a> and we will take appropriate action.</p>
+  </section>
+
+  <section id="s7">
+    <span class="section-number">07 — Updates</span>
+    <h2>Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. When we do, we will update the "Last updated" date at the top of this page. For material changes, we will also update the app store listing description and may display an in-app notice.</p>
+    <p>Your continued use of SpoofDaily after any changes constitutes acceptance of the updated policy. We encourage you to review this page periodically.</p>
+    <p>Previous versions of this Privacy Policy are available upon request at <a href="mailto:factictionary@gmail.com"factictionary@gmail.com/a>.</p>
+  </section>
+
+  <section id="s8">
+    <span class="section-number">08 — Contact</span>
+    <h2>Contact Us</h2>
+    <p>For any questions, concerns, or requests relating to this Privacy Policy or your data, please contact us:</p>
+
+    <div class="contact-card">
+      <div class="contact-info">
+        <p><strong style="color:var(--cream);">Factictionary</strong></p>
+        <p>Privacy inquiries: <a href="mailto:factictionary@gmail.com">factictionary@gmail.com</a></p>
+        <p>General support: <a href="mailto:factictionary@gmail.com">factictionary@gmail.com</a></p>
+        <p>Website: <a href="https://www.factictionary.in" target="_blank">www.factictionary.in</a></p>
+        <p style="margin-top:10px;font-size:13px;color:var(--text-3);">We aim to respond to all privacy requests within 30 days.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <span>© 2026 Factictionary. All rights reserved.</span>
+    <div class="footer-links">
+      <a href="privacy_policy.html">Privacy Policy</a>
+      <a href="terms_of_service.html">Terms of Service</a>
+      <a href="mailto:factictionary@gmail.com">Support</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
