@@ -2,57 +2,154 @@
   "items": [
     {
       "id": "001",
-      "headline": "Tara Khannara spotted impeaches",
-      "summary": "Sources say nobody was surprised",
-      "fullBody": "According to leaked documents Tara Khannara spotted impeaches Adding to the confusion, company denied everything then apologized More details as they emerge.",
-      "category": "entertainment",
+      "headline": "Florida man found hiding inside a flying spaghetti monster accountant",
+      "summary": "Sources say board members resigned... again",
+      "fullBody": "Breaking overnight Florida man found hiding inside a flying spaghetti monster accountant Adding to the confusion, the janitor quit in protest We will continue to monitor this story.",
+      "category": "weird",
       "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/001.jpg",
-      "publishedAt": "21 hrs ago",
-      "readTimeSeconds": 95,
+      "publishedAt": "14 hrs ago",
+      "readTimeSeconds": 50,
       "tags": [
-        "Breaking",
-        "Celebrity"
+        "Weird"
       ],
-      "isBreaking": true
+      "isBreaking": false
     },
     {
       "id": "002",
-      "headline": "FakeBook launches an overly honest couch",
-      "summary": "Sources say the janitor quit in protest",
-      "fullBody": "Social media exploded when FakeBook launches an overly honest couch Adding to the confusion, CEO said 'it's a feature not a bug' The internet has already moved on.",
-      "category": "tech",
+      "headline": "Florida man marries half-cat half-toaster",
+      "summary": "Sources say a single tweet went viral",
+      "fullBody": "According to leaked documents Florida man marries half-cat half-toaster Adding to the confusion, spokesperson blamed childhood trauma The internet has already moved on.",
+      "category": "weird",
       "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/002.jpg",
-      "publishedAt": "12 hrs ago",
-      "readTimeSeconds": 82,
+      "publishedAt": "14 hrs ago",
+      "readTimeSeconds": 55,
       "tags": [
         "Breaking",
-        "Tech"
+        "Weird"
       ],
       "isBreaking": true
     },
     {
       "id": "003",
-      "headline": "Hole Foods launches a mirror that gives unsolicited advice",
-      "summary": "Sources say everyone noticed too much",
-      "fullBody": "History was made when Hole Foods launches a mirror that gives unsolicited advice Strangely enough, nobody noticed More details as they emerge.",
-      "category": "tech",
+      "headline": "Sowmya Venkatala spotted blames childhood trauma on",
+      "summary": "Sources say company denied everything then apologized",
+      "fullBody": "Sources close to the matter reveal Sowmya Venkatala spotted blames childhood trauma on Adding to the confusion, board members resigned... again The internet has already moved on.",
+      "category": "entertainment",
       "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/003.jpg",
-      "publishedAt": "3 hrs ago",
-      "readTimeSeconds": 85,
+      "publishedAt": "2 hrs ago",
+      "readTimeSeconds": 61,
+      "tags": [
+        "Celebrity"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "004",
+      "headline": "DoomCorp launches a keyboard with emotional damage",
+      "summary": "Sources say 3 people cared deeply",
+      "fullBody": "Social media exploded when DoomCorp launches a keyboard with emotional damage Meanwhile, TikTok cried More details as they emerge.",
+      "category": "tech",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/004.jpg",
+      "publishedAt": "17 hrs ago",
+      "readTimeSeconds": 120,
       "tags": [
         "Tech"
       ],
       "isBreaking": false
     },
     {
-      "id": "004",
-      "headline": "Leonardo DiCapriSun spotted vetoes",
-      "summary": "Sources say stock up 4000%",
-      "fullBody": "In a bizarre turn of events Leonardo DiCapriSun spotted vetoes Adding to the confusion, lawyers advised 'don't talk about it' The internet has already moved on.",
+      "id": "005",
+      "headline": "Misty Melody spotted signs executive order",
+      "summary": "Sources say twitter/x imploded",
+      "fullBody": "In a shocking development Misty Melody spotted signs executive order However, spokesperson blamed childhood trauma The internet has already moved on.",
       "category": "entertainment",
-      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/004.jpg",
-      "publishedAt": "22 hrs ago",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/005.jpg",
+      "publishedAt": "16 hrs ago",
+      "readTimeSeconds": 109,
+      "tags": [
+        "Celebrity"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "006",
+      "headline": "Rocky Kapoora spotted has a existential crisis about",
+      "summary": "Sources say investors were 'concerned but intrigued'",
+      "fullBody": "Witnesses report that Rocky Kapoora spotted has a existential crisis about Strangely enough, the internet broke The internet has already moved on.",
+      "category": "entertainment",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/006.jpg",
+      "publishedAt": "17 hrs ago",
+      "readTimeSeconds": 74,
+      "tags": [
+        "Celebrity"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "007",
+      "headline": "InstaScam launches a table that's disappointed in you",
+      "summary": "Sources say tiktok cried",
+      "fullBody": "History was made when InstaScam launches a table that's disappointed in you However, everyone clapped More details as they emerge.",
+      "category": "tech",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/007.jpg",
+      "publishedAt": "7 hrs ago",
+      "readTimeSeconds": 111,
+      "tags": [
+        "Tech"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "008",
+      "headline": "Florida man marries a dog who filed for divorce",
+      "summary": "Sources say nobody was surprised",
+      "fullBody": "In a shocking development Florida man marries a dog who filed for divorce However, everyone clapped More details as they emerge.",
+      "category": "weird",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/008.jpg",
+      "publishedAt": "21 hrs ago",
+      "readTimeSeconds": 75,
+      "tags": [
+        "Weird"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "009",
+      "headline": "Stella Spotlight spotted launches",
+      "summary": "Sources say gen z pretended not to care",
+      "fullBody": "History was made when Stella Spotlight spotted launches Strangely enough, a single tweet went viral The internet has already moved on.",
+      "category": "entertainment",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/009.jpg",
+      "publishedAt": "12 hrs ago",
+      "readTimeSeconds": 111,
+      "tags": [
+        "Celebrity"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "010",
+      "headline": "Snaccify launches a vacuum with self-esteem issues",
+      "summary": "Sources say stock up 4000%",
+      "fullBody": "In a shocking development Snaccify launches a vacuum with self-esteem issues However, TikTok cried The internet has already moved on.",
+      "category": "tech",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/010.jpg",
+      "publishedAt": "20 hrs ago",
       "readTimeSeconds": 106,
+      "tags": [
+        "Tech"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "011",
+      "headline": "Karan Catchphrase spotted promoted to customer",
+      "summary": "Sources say facebook boomers shared it 400 times",
+      "fullBody": "Social media exploded when Karan Catchphrase spotted promoted to customer Meanwhile, stock up 4000% We will continue to monitor this story.",
+      "category": "entertainment",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/011.jpg",
+      "publishedAt": "7 hrs ago",
+      "readTimeSeconds": 73,
       "tags": [
         "Breaking",
         "Celebrity"
@@ -60,14 +157,551 @@
       "isBreaking": true
     },
     {
-      "id": "005",
-      "headline": "Florida man has a existential crisis about a goose with an economics degree",
-      "summary": "Sources say ceo said 'it's a feature not a bug'",
-      "fullBody": "History was made when Florida man has a existential crisis about a goose with an economics degree Meanwhile, company denied everything then apologized The internet has already moved on.",
-      "category": "weird",
-      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/005.jpg",
+      "id": "012",
+      "headline": "Consumer Void launches a clock that lies",
+      "summary": "Sources say board members resigned... again",
+      "fullBody": "Social media exploded when Consumer Void launches a clock that lies Meanwhile, everyone clapped More details as they emerge.",
+      "category": "tech",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/012.jpg",
+      "publishedAt": "6 hrs ago",
+      "readTimeSeconds": 52,
+      "tags": [
+        "Tech"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "013",
+      "headline": "Consumer Void launches a spoon that only eats soup ironically",
+      "summary": "Sources say tiktok cried",
+      "fullBody": "In a shocking development Consumer Void launches a spoon that only eats soup ironically Adding to the confusion, TikTok cried More details as they emerge.",
+      "category": "tech",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/013.jpg",
       "publishedAt": "3 hrs ago",
-      "readTimeSeconds": 69,
+      "readTimeSeconds": 77,
+      "tags": [
+        "Tech"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "014",
+      "headline": "President Joe Pebble signs order",
+      "summary": "Sources say gen z pretended not to care",
+      "fullBody": "Social media exploded when President Joe Pebble signs order However, Facebook boomers shared it 400 times More details as they emerge.",
+      "category": "politics",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/014.jpg",
+      "publishedAt": "23 hrs ago",
+      "readTimeSeconds": 46,
+      "tags": [
+        "Politics"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "015",
+      "headline": "Florida man gaslights an ambitious squirrel",
+      "summary": "Sources say stock down 4000%",
+      "fullBody": "Social media exploded when Florida man gaslights an ambitious squirrel However, TikTok cried We will continue to monitor this story.",
+      "category": "weird",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/015.jpg",
+      "publishedAt": "20 hrs ago",
+      "readTimeSeconds": 103,
+      "tags": [
+        "Weird"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "016",
+      "headline": "President Cherry Chord signs order",
+      "summary": "Sources say investors were 'concerned but intrigued'",
+      "fullBody": "Sources close to the matter reveal President Cherry Chord signs order Strangely enough, lawyers advised 'don't talk about it' We will continue to monitor this story.",
+      "category": "politics",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/016.jpg",
+      "publishedAt": "7 hrs ago",
+      "readTimeSeconds": 109,
+      "tags": [
+        "Politics"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "017",
+      "headline": "Florida man sues a dog who filed for divorce",
+      "summary": "Sources say company denied everything then apologized",
+      "fullBody": "Breaking overnight Florida man sues a dog who filed for divorce Adding to the confusion, the janitor quit in protest The internet has already moved on.",
+      "category": "weird",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/017.jpg",
+      "publishedAt": "16 hrs ago",
+      "readTimeSeconds": 67,
+      "tags": [
+        "Weird"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "018",
+      "headline": "Sowmya Venkatala spotted signs executive order",
+      "summary": "Sources say spokesperson blamed childhood trauma",
+      "fullBody": "Social media exploded when Sowmya Venkatala spotted signs executive order Strangely enough, investors were 'concerned but intrigued' The internet has already moved on.",
+      "category": "entertainment",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/018.jpg",
+      "publishedAt": "13 hrs ago",
+      "readTimeSeconds": 53,
+      "tags": [
+        "Breaking",
+        "Celebrity"
+      ],
+      "isBreaking": true
+    },
+    {
+      "id": "019",
+      "headline": "Florida man caught aggressively ignoring an overly optimistic octopus",
+      "summary": "Sources say gen z pretended not to care",
+      "fullBody": "Witnesses report that Florida man caught aggressively ignoring an overly optimistic octopus Strangely enough, lawyers advised 'don't talk about it' We will continue to monitor this story.",
+      "category": "weird",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/019.jpg",
+      "publishedAt": "10 hrs ago",
+      "readTimeSeconds": 63,
+      "tags": [
+        "Breaking",
+        "Weird"
+      ],
+      "isBreaking": true
+    },
+    {
+      "id": "020",
+      "headline": "Swarika Singh spotted declares war on",
+      "summary": "Sources say the janitor quit in protest",
+      "fullBody": "Sources close to the matter reveal Swarika Singh spotted declares war on Adding to the confusion, everyone clapped We will continue to monitor this story.",
+      "category": "entertainment",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/020.jpg",
+      "publishedAt": "10 hrs ago",
+      "readTimeSeconds": 81,
+      "tags": [
+        "Celebrity"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "021",
+      "headline": "Florida man witnessed passionately debating a psychic snail that only predicts weather",
+      "summary": "Sources say everyone clapped",
+      "fullBody": "Sources close to the matter reveal Florida man witnessed passionately debating a psychic snail that only predicts weather Strangely enough, company denied everything then apologized We will continue to monitor this story.",
+      "category": "weird",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/021.jpg",
+      "publishedAt": "20 hrs ago",
+      "readTimeSeconds": 46,
+      "tags": [
+        "Weird"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "022",
+      "headline": "FluffWorks launches a rug that ties the room together too aggressively",
+      "summary": "Sources say twitter/x imploded",
+      "fullBody": "In a bizarre turn of events FluffWorks launches a rug that ties the room together too aggressively Meanwhile, stock up 4000% We will continue to monitor this story.",
+      "category": "tech",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/022.jpg",
+      "publishedAt": "10 hrs ago",
+      "readTimeSeconds": 116,
+      "tags": [
+        "Breaking",
+        "Tech"
+      ],
+      "isBreaking": true
+    },
+    {
+      "id": "023",
+      "headline": "Evil Inc. launches a fork that's vegetarian (ethically conflicted)",
+      "summary": "Sources say the janitor quit in protest",
+      "fullBody": "Social media exploded when Evil Inc. launches a fork that's vegetarian (ethically conflicted) Meanwhile, company denied everything then apologized More details as they emerge.",
+      "category": "tech",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/023.jpg",
+      "publishedAt": "3 hrs ago",
+      "readTimeSeconds": 103,
+      "tags": [
+        "Tech"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "024",
+      "headline": "Orange launches an overly honest couch",
+      "summary": "Sources say gen z pretended not to care",
+      "fullBody": "Sources close to the matter reveal Orange launches an overly honest couch Strangely enough, lawyers advised 'don't talk about it' The internet has already moved on.",
+      "category": "tech",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/024.jpg",
+      "publishedAt": "4 hrs ago",
+      "readTimeSeconds": 115,
+      "tags": [
+        "Breaking",
+        "Tech"
+      ],
+      "isBreaking": true
+    },
+    {
+      "id": "025",
+      "headline": "Unsung Inc. launches an overly honest couch",
+      "summary": "Sources say stock down 4000%",
+      "fullBody": "According to leaked documents Unsung Inc. launches an overly honest couch Strangely enough, a single tweet went viral We will continue to monitor this story.",
+      "category": "tech",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/025.jpg",
+      "publishedAt": "23 hrs ago",
+      "readTimeSeconds": 54,
+      "tags": [
+        "Tech"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "026",
+      "headline": "Cashesh Kumar spotted declares war on",
+      "summary": "Sources say 3 people cared deeply",
+      "fullBody": "Sources close to the matter reveal Cashesh Kumar spotted declares war on Meanwhile, Twitter/X imploded The internet has already moved on.",
+      "category": "entertainment",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/026.jpg",
+      "publishedAt": "8 hrs ago",
+      "readTimeSeconds": 72,
+      "tags": [
+        "Celebrity"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "027",
+      "headline": "President Captain Confessional signs order",
+      "summary": "Sources say the internet broke",
+      "fullBody": "Breaking overnight President Captain Confessional signs order However, Reddit formed a committee More details as they emerge.",
+      "category": "politics",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/027.jpg",
+      "publishedAt": "17 hrs ago",
+      "readTimeSeconds": 119,
+      "tags": [
+        "Politics"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "028",
+      "headline": "Bunty Backbeat spotted marries",
+      "summary": "Sources say 3 people cared deeply",
+      "fullBody": "In a bizarre turn of events Bunty Backbeat spotted marries However, nobody noticed The internet has already moved on.",
+      "category": "entertainment",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/028.jpg",
+      "publishedAt": "22 hrs ago",
+      "readTimeSeconds": 111,
+      "tags": [
+        "Celebrity"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "029",
+      "headline": "Tailor SlowFlick spotted impeaches",
+      "summary": "Sources say spokesperson blamed childhood trauma",
+      "fullBody": "In a bizarre turn of events Tailor SlowFlick spotted impeaches Meanwhile, TikTok cried The internet has already moved on.",
+      "category": "entertainment",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/029.jpg",
+      "publishedAt": "11 hrs ago",
+      "readTimeSeconds": 111,
+      "tags": [
+        "Celebrity"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "030",
+      "headline": "Bloopify launches a clock that lies",
+      "summary": "Sources say stock up 4000%",
+      "fullBody": "Witnesses report that Bloopify launches a clock that lies Meanwhile, everyone clapped The internet has already moved on.",
+      "category": "tech",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/030.jpg",
+      "publishedAt": "8 hrs ago",
+      "readTimeSeconds": 80,
+      "tags": [
+        "Tech"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "031",
+      "headline": "President Rocky Kapoora signs order",
+      "summary": "Sources say tiktok cried",
+      "fullBody": "According to leaked documents President Rocky Kapoora signs order Strangely enough, a single tweet went viral We will continue to monitor this story.",
+      "category": "politics",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/031.jpg",
+      "publishedAt": "1 hr ago",
+      "readTimeSeconds": 87,
+      "tags": [
+        "Politics"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "032",
+      "headline": "President Crisp Crock signs order",
+      "summary": "Sources say company denied everything then apologized",
+      "fullBody": "Sources close to the matter reveal President Crisp Crock signs order Meanwhile, stock down 4000% More details as they emerge.",
+      "category": "politics",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/032.jpg",
+      "publishedAt": "17 hrs ago",
+      "readTimeSeconds": 58,
+      "tags": [
+        "Politics"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "033",
+      "headline": "DizzyKnee launches a morally ambiguous toaster",
+      "summary": "Sources say the janitor quit in protest",
+      "fullBody": "According to leaked documents DizzyKnee launches a morally ambiguous toaster Adding to the confusion, the internet broke The internet has already moved on.",
+      "category": "tech",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/033.jpg",
+      "publishedAt": "4 hrs ago",
+      "readTimeSeconds": 50,
+      "tags": [
+        "Tech"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "034",
+      "headline": "Consumer Void launches a judgmental lamp",
+      "summary": "Sources say 3 people cared deeply",
+      "fullBody": "Sources close to the matter reveal Consumer Void launches a judgmental lamp Meanwhile, TikTok cried More details as they emerge.",
+      "category": "tech",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/034.jpg",
+      "publishedAt": "4 hrs ago",
+      "readTimeSeconds": 116,
+      "tags": [
+        "Tech"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "035",
+      "headline": "YouLaugh launches a therapist refrigerator",
+      "summary": "Sources say stock up 4000%",
+      "fullBody": "Breaking overnight YouLaugh launches a therapist refrigerator Meanwhile, investors were 'concerned but intrigued' We will continue to monitor this story.",
+      "category": "tech",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/035.jpg",
+      "publishedAt": "15 hrs ago",
+      "readTimeSeconds": 99,
+      "tags": [
+        "Tech"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "036",
+      "headline": "MucusSoft launches a plate that was adopted",
+      "summary": "Sources say ceo said 'it's a feature not a bug'",
+      "fullBody": "Witnesses report that MucusSoft launches a plate that was adopted Strangely enough, TikTok cried More details as they emerge.",
+      "category": "tech",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/036.jpg",
+      "publishedAt": "20 hrs ago",
+      "readTimeSeconds": 111,
+      "tags": [
+        "Breaking",
+        "Tech"
+      ],
+      "isBreaking": true
+    },
+    {
+      "id": "037",
+      "headline": "President Ricky Khannaji signs order",
+      "summary": "Sources say facebook boomers shared it 400 times",
+      "fullBody": "Witnesses report that President Ricky Khannaji signs order However, spokesperson blamed childhood trauma The internet has already moved on.",
+      "category": "politics",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/037.jpg",
+      "publishedAt": "22 hrs ago",
+      "readTimeSeconds": 104,
+      "tags": [
+        "Politics"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "038",
+      "headline": "Florida man witnessed passionately debating half-cat half-toaster",
+      "summary": "Sources say spokesperson blamed childhood trauma",
+      "fullBody": "Sources close to the matter reveal Florida man witnessed passionately debating half-cat half-toaster However, lawyers advised 'don't talk about it' The internet has already moved on.",
+      "category": "weird",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/038.jpg",
+      "publishedAt": "16 hrs ago",
+      "readTimeSeconds": 98,
+      "tags": [
+        "Weird"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "039",
+      "headline": "Florida man caught aggressively ignoring a narcoleptic flamingo",
+      "summary": "Sources say twitter/x imploded",
+      "fullBody": "According to leaked documents Florida man caught aggressively ignoring a narcoleptic flamingo Adding to the confusion, Gen Z pretended not to care We will continue to monitor this story.",
+      "category": "weird",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/039.jpg",
+      "publishedAt": "5 hrs ago",
+      "readTimeSeconds": 95,
+      "tags": [
+        "Weird"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "040",
+      "headline": "President Rohan Rumourkar signs order",
+      "summary": "Sources say ceo said 'it's a feature not a bug'",
+      "fullBody": "Witnesses report that President Rohan Rumourkar signs order Adding to the confusion, board members resigned... again More details as they emerge.",
+      "category": "politics",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/040.jpg",
+      "publishedAt": "18 hrs ago",
+      "readTimeSeconds": 68,
+      "tags": [
+        "Politics"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "041",
+      "headline": "Florida man love-bombs an overly optimistic octopus",
+      "summary": "Sources say the internet broke",
+      "fullBody": "History was made when Florida man love-bombs an overly optimistic octopus Meanwhile, everyone noticed too much More details as they emerge.",
+      "category": "weird",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/041.jpg",
+      "publishedAt": "5 hrs ago",
+      "readTimeSeconds": 115,
+      "tags": [
+        "Weird"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "042",
+      "headline": "Orange launches a rug that ties the room together too aggressively",
+      "summary": "Sources say reddit formed a committee",
+      "fullBody": "Social media exploded when Orange launches a rug that ties the room together too aggressively Adding to the confusion, board members resigned... again The internet has already moved on.",
+      "category": "tech",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/042.jpg",
+      "publishedAt": "19 hrs ago",
+      "readTimeSeconds": 93,
+      "tags": [
+        "Tech"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "043",
+      "headline": "Raj Elimination spotted filibusters about",
+      "summary": "Sources say reddit formed a committee",
+      "fullBody": "Sources close to the matter reveal Raj Elimination spotted filibusters about Meanwhile, Facebook boomers shared it 400 times We will continue to monitor this story.",
+      "category": "entertainment",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/043.jpg",
+      "publishedAt": "23 hrs ago",
+      "readTimeSeconds": 87,
+      "tags": [
+        "Celebrity"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "044",
+      "headline": "Scarlet Johannisberry spotted marries",
+      "summary": "Sources say reddit formed a committee",
+      "fullBody": "According to leaked documents Scarlet Johannisberry spotted marries Adding to the confusion, everyone clapped The internet has already moved on.",
+      "category": "entertainment",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/044.jpg",
+      "publishedAt": "11 hrs ago",
+      "readTimeSeconds": 119,
+      "tags": [
+        "Celebrity"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "045",
+      "headline": "Lucky Legislature spotted love-bombs",
+      "summary": "Sources say everyone clapped",
+      "fullBody": "Witnesses report that Lucky Legislature spotted love-bombs However, stock up 4000% The internet has already moved on.",
+      "category": "entertainment",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/045.jpg",
+      "publishedAt": "2 hrs ago",
+      "readTimeSeconds": 97,
+      "tags": [
+        "Celebrity"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "046",
+      "headline": "Florida man claims credit for a confused penguin",
+      "summary": "Sources say stock up 4000%",
+      "fullBody": "Sources close to the matter reveal Florida man claims credit for a confused penguin Strangely enough, Reddit formed a committee More details as they emerge.",
+      "category": "weird",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/046.jpg",
+      "publishedAt": "11 hrs ago",
+      "readTimeSeconds": 93,
+      "tags": [
+        "Weird"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "047",
+      "headline": "FluffWorks launches a phone that only calls your ex",
+      "summary": "Sources say nobody noticed",
+      "fullBody": "In a shocking development FluffWorks launches a phone that only calls your ex However, 3 people cared deeply We will continue to monitor this story.",
+      "category": "tech",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/047.jpg",
+      "publishedAt": "1 hr ago",
+      "readTimeSeconds": 47,
+      "tags": [
+        "Tech"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "048",
+      "headline": "DizzyKnee launches a table that's disappointed in you",
+      "summary": "Sources say the internet broke",
+      "fullBody": "In a bizarre turn of events DizzyKnee launches a table that's disappointed in you However, 3 people cared deeply The internet has already moved on.",
+      "category": "tech",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/048.jpg",
+      "publishedAt": "9 hrs ago",
+      "readTimeSeconds": 66,
+      "tags": [
+        "Tech"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "049",
+      "headline": "President Leotard DiCapriCat signs order",
+      "summary": "Sources say the janitor quit in protest",
+      "fullBody": "According to leaked documents President Leotard DiCapriCat signs order Strangely enough, Twitter/X imploded We will continue to monitor this story.",
+      "category": "politics",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/049.jpg",
+      "publishedAt": "14 hrs ago",
+      "readTimeSeconds": 74,
+      "tags": [
+        "Politics"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "050",
+      "headline": "Florida man declares war on a depressed raccoon",
+      "summary": "Sources say the internet broke",
+      "fullBody": "In a bizarre turn of events Florida man declares war on a depressed raccoon Meanwhile, investors were 'concerned but intrigued' We will continue to monitor this story.",
+      "category": "weird",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-06-05/050.jpg",
+      "publishedAt": "18 hrs ago",
+      "readTimeSeconds": 78,
       "tags": [
         "Weird"
       ],
