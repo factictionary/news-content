@@ -1,0 +1,26 @@
+name: Trigger Website Update
+
+on:
+  push:
+    paths:
+      - 'facts/**/*.json'
+    branches:
+      - main
+  workflow_dispatch:  # 👈 ADD THIS to manually trigger
+    inputs:
+      force_regenerate:
+        description: 'Force regenerate all pages'
+        type: boolean
+        default: false
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger website repository update
+        run: |
+          curl -X POST \
+            -H "Accept: application/vnd.github.v3+json" \
+            -H "Authorization: token ${{ secrets.WEBSITE_REPO_PAT }}" \
+            https://api.github.com/repos/factictionary/website/dispatches \
+            -d '{"event_type":"update-facts","client_payload":{"ref":"main","force":"${{ inputs.force_regenerate }}"}}'
