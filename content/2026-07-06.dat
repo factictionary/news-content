@@ -1,0 +1,806 @@
+{
+  "date": "2026-07-06",
+  "version": 9,
+  "items": [
+    {
+      "id": "001",
+      "headline": "Local Man Barry Perry Marries Dairy Fairy in Flurry of Cherry Berries",
+      "summary": "The wedding was berry sweet, held in a cherry grove near Ferry Larry's ferry.",
+      "fullBody": "Barry Perry, 34, of Cherry, New York, eloped with the Dairy Fairy, a mythical figure who delivers free milkshakes to deserving citizens. The ceremony, officiated by Ferry Larry, took place on his ferry while guests ate cherry berries. 'I never believed in love at first dairy,' Perry said, wiping cream from his mustache. The Dairy Fairy declined to comment but left a trail of glitter and lactose-free optimism.",
+      "category": "lifestyle",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/001.jpg",
+      "publishedAt": "2 hrs ago",
+      "readTimeSeconds": 87,
+      "tags": [
+        "Wedding",
+        "Fairy Tales",
+        "Dairy"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "002",
+      "headline": "Scientist Trent Lent Invents Sentient Tent That Rents Itself Out",
+      "summary": "The tent reportedly charges $50 a night and refuses to host anyone who snores.",
+      "fullBody": "Dr. Trent Lent, a biologist from Kent, spent ten years developing the world's first self-aware tent. 'I wanted to revolutionize camping,' Lent explained, 'but now it has opinions about polyester blends.' The tent, named 'Tentacle Tent,' has already listed itself on three rental platforms and is currently suing a camper for leaving crumbs inside. Legal experts are tentatively watching the case unfold.",
+      "category": "science",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/002.jpg",
+      "publishedAt": "3 hrs ago",
+      "readTimeSeconds": 92,
+      "tags": [
+        "Science",
+        "AI",
+        "Camping"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "003",
+      "headline": "Mayor Fay Gray Bans Gray Days, Declares Every Day Must Be 'Ray Day'",
+      "summary": "Citizens required to wear sunglasses indoors; meteorologists are in disarray.",
+      "fullBody": "Mayor Fay Gray of Grayville, Indiana, has issued an executive order banning overcast skies. 'Gray days make people feel gray,' Gray declared from a podium bathed in artificial sunlight. The decree mandates that every day be renamed 'Ray Day,' requiring citizens to smile at strangers and carry pocket flashlights. Local weatherman Jay Kay resigned in protest, stating, 'You can't just ban clouds. That's not how atmosphere works.' Gray responded by appointing a 'Chief Ray Officer' to patrol the skies with mirrors.",
+      "category": "politics",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/003.jpg",
+      "publishedAt": "1 hr ago",
+      "readTimeSeconds": 105,
+      "tags": [
+        "Politics",
+        "Weather",
+        "Absurd Laws"
+      ],
+      "isBreaking": true
+    },
+    {
+      "id": "004",
+      "headline": "Chef Bev Lev's Rev Deviled Eggs Win Award for 'Most Heavenly Hell Food'",
+      "summary": "The eggs are so good they're sinful; church groups are conflicted.",
+      "fullBody": "Bev Lev, a chef from Beverly Hills, has created deviled eggs so delicious that the Vatican issued a statement. 'They are technically a sin against moderation,' admitted Cardinal Rev Trev. Lev's secret ingredient remains a mystery, though rumors suggest it's a blend of holy water and hot sauce. The dish has been banned in three states for being 'too addictive,' but Lev simply smiles and says, 'The devil's in the details.'",
+      "category": "food",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/004.jpg",
+      "publishedAt": "4 hrs ago",
+      "readTimeSeconds": 78,
+      "tags": [
+        "Food",
+        "Awards",
+        "Religion"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "005",
+      "headline": "Gym Owner Jim Slim Claims New 'Slim Gym' Makes You Slim While You Swim",
+      "summary": "The facility is a swimming pool full of gelatin; results are wobbly but promising.",
+      "fullBody": "Jim Slim, former bodybuilder and current mad scientist, has opened the Slim Gym, where patrons exercise in a pool of lime-flavored gelatin. 'Swimming in Jell-O burns 400% more calories because you can't stop laughing,' Slim claimed while doing laps in cherry gelatin. Early members report mixed results: most have lost weight from laughing, two got stuck, and one was eaten by a confused shark that wandered in during a plumbing mishap. Slim is already planning a 'Brim Gym' where you work out in hats.",
+      "category": "health",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/005.jpg",
+      "publishedAt": "5 hrs ago",
+      "readTimeSeconds": 95,
+      "tags": [
+        "Fitness",
+        "Weird",
+        "Swimming"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "006",
+      "headline": "Cat Pat Mat Battles Rat Tat Sat in Epic Backyard Chat spat",
+      "summary": "The confrontation lasted three hours; neither feline nor rodent would scat.",
+      "fullBody": "In the suburbs of Flat Hat, a territorial dispute between Pat Mat, a tabby cat, and Tat Sat, a surprisingly eloquent rat, escalated into a full-blown argument. Witnesses report the two exchanged heated meows and squeaks for three hours before a mediator named Nat Bat intervened. 'They were just venting about property lines,' Bat explained. The conflict was resolved when both parties agreed to share a saucer of milk at twilight. Local dogs are reportedly 'deeply disappointed' by the peaceful resolution.",
+      "category": "animals",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/006.jpg",
+      "publishedAt": "30 mins ago",
+      "readTimeSeconds": 72,
+      "tags": [
+        "Animals",
+        "Local News",
+        "Drama"
+      ],
+      "isBreaking": true
+    },
+    {
+      "id": "007",
+      "headline": "Artist Bart Dart Farts His Way to Modern Art Stardom with 'Heart Chart'",
+      "summary": "The piece sold for $2 million; critics call it 'a breath of fresh air.'",
+      "fullBody": "Bart Dart, a controversial performance artist from Dartmouth, has shattered auction records with 'Heart Chart,' a multimedia installation combining flatulence and cardiac monitoring. 'Each toot is mapped to my heartbeat,' Dart explained, wearing a tuxedo made of smart fabric. The piece, which sold for $2 million to an anonymous collector, has divided the art world. 'It's visceral, it's human, it's slightly nauseating,' said critic Marta Carta. Dart is already working on a sequel, 'Smart Fart,' which will incorporate AI-generated harmonies.",
+      "category": "arts",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/007.jpg",
+      "publishedAt": "6 hrs ago",
+      "readTimeSeconds": 88,
+      "tags": [
+        "Art",
+        "Weird",
+        "Auctions"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "008",
+      "headline": "Pilot Wyatt Knight Fights Plight of Flight Delight with Kite-Powered Plane",
+      "summary": "The aircraft runs on wind and whimsy; TSA is baffled.",
+      "fullBody": "Captain Wyatt Knight, a pilot with a penchant for the poetic, has unveiled a commercial airliner powered entirely by giant kites. 'Why fight the wind when you can invite it?' Knight asked while untangling a string from a baggage carousel. The maiden flight from Portland to Portland (a different one) took 14 hours but used zero fuel. Passengers described the experience as 'surprisingly serene, except for the screaming when a kite dipped.' The FAA is reviewing the design while eating anxiety medication.",
+      "category": "tech",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/008.jpg",
+      "publishedAt": "7 hrs ago",
+      "readTimeSeconds": 93,
+      "tags": [
+        "Aviation",
+        "Green Tech",
+        "Innovation"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "009",
+      "headline": "Baker Blake Drake Bakes Snake Cake for Lake Wake's Annual Bake Sale",
+      "summary": "The cake is shaped like a snake; three people fainted, but it tasted great.",
+      "fullBody": "Blake Drake, a pastry chef known for pushing boundaries, has created a 12-foot-long snake cake for Lake Wake's charity bake sale. 'I wanted something that would wake people up,' Drake said, adjusting the cake's fondant fangs. The hyper-realistic serpent was so convincing that three attendees fainted, one called animal control, and a herpetologist tried to take its temperature. Despite the chaos, the cake sold for $500 and won 'Most Creative.' Drake's next project: a pie that looks like a lie detector.",
+      "category": "food",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/009.jpg",
+      "publishedAt": "8 hrs ago",
+      "readTimeSeconds": 84,
+      "tags": [
+        "Food",
+        "Baking",
+        "Charity"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "010",
+      "headline": "Dr. Phil Hill's Pill Mill Shut Down by Bill Gill's Will Hill Legal Firm",
+      "summary": "The alliteration alone was enough to secure a conviction.",
+      "fullBody": "Dr. Phil Hill, who operated a suspicious pharmacy on Pill Hill, was finally brought to justice by attorney Bill Gill of the Will Hill Legal Firm. 'We built our case on the sheer absurdity of the name,' Gill admitted, sipping coffee from a mug that read 'Litigate, Don't Hesitate.' Hill's defense—that he was 'just a hill doctor who liked pills'—was rejected by Judge Jill Dill, who sentenced him to community service planting daffodils on actual hills. 'I guess I'm a hill doctor again,' Hill sighed, holding a trowel.",
+      "category": "crime",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/010.jpg",
+      "publishedAt": "9 hrs ago",
+      "readTimeSeconds": 91,
+      "tags": [
+        "Crime",
+        "Legal",
+        "Wordplay"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "011",
+      "headline": "Singer Bing King Sings Ring Song in Spring, Brings Zing to Everything",
+      "summary": "The concert was so lively that even the chairs danced.",
+      "fullBody": "Bing King, the self-proclaimed 'King of Bing,' performed his hit 'Ring Song' at the Spring Fling in Zing, Kansas. The concert was so energetic that witnesses report folding chairs spontaneously line-dancing and a tuba player ascending to a higher plane of existence. 'I just wanted to sing about jewelry,' King said, adjusting his diamond-encrusted crown. The event raised $50,000 for the local library, which plans to install a 'Bing Wing' dedicated to books that rhyme. Attendees are still humming the tune six days later, much to their coworkers' dismay.",
+      "category": "entertainment",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/011.jpg",
+      "publishedAt": "10 hrs ago",
+      "readTimeSeconds": 86,
+      "tags": [
+        "Music",
+        "Concert",
+        "Charity"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "012",
+      "headline": "Farmer Norm Storm Warns That Corn Born in a Thorn Worn by a Fawn Is Forlorn",
+      "summary": "The agricultural community is struggling to parse this prophecy.",
+      "fullBody": "Norm Storm, a fourth-generation farmer known for his cryptic weather predictions, has issued a warning so linguistically dense that the USDA has assigned a team of linguists to decode it. 'Corn born in a thorn worn by a fawn is forlorn,' Storm repeated, pointing at a withered stalk. Some interpret it as a warning about invasive species; others believe it's a commentary on fast fashion in the animal kingdom. Either way, local corn futures have plummeted, and a deer named Fawn has been placed in protective custody. 'I'm just saying what the soil told me,' Storm shrugged.",
+      "category": "agriculture",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/012.jpg",
+      "publishedAt": "11 hrs ago",
+      "readTimeSeconds": 98,
+      "tags": [
+        "Agriculture",
+        "Prophecy",
+        "Weird"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "013",
+      "headline": "Tech CEO Rex Vex Unveils 'Hex' App That Predicts Your Next Ex",
+      "summary": "The algorithm uses your dating history and star signs; results are devastatingly accurate.",
+      "fullBody": "Rex Vex, the eccentric founder of VexTech, has launched 'Hex,' an app that predicts who you'll break up with next. 'We use a combination of AI, astrology, and passive-aggressive text analysis,' Vex explained, demonstrating the app on his own phone. It immediately suggested his assistant. The app has already predicted 10,000 breakups with 97% accuracy, though critics argue it causes the breakups by planting suggestions. 'Correlation isn't causation,' Vex said, while his girlfriend quietly packed a bag in the background.",
+      "category": "tech",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/013.jpg",
+      "publishedAt": "12 hrs ago",
+      "readTimeSeconds": 89,
+      "tags": [
+        "Tech",
+        "Dating",
+        "AI"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "014",
+      "headline": "Dentist Brent Dent Invents Tent for Rent That Prevents Bad Breath Sent",
+      "summary": "The portable mouth tent is already sold out; kissers worldwide rejoice.",
+      "fullBody": "Dr. Brent Dent, a dentist from Denton, Texas, has created the 'Breath Tent,' a tiny pop-up enclosure that filters and freshens your exhalations. 'Bad breath is a social pandemic,' Dent declared, demonstrating the tent at a speed-dating event. The device, which looks like a miniature camping tent for your mouth, sold out in four minutes. Early users report increased confidence, though several accidentally swallowed the tent poles. Dent is already developing a 'Scent Tent' for armpits and a 'Lent Tent' for Catholics who need to hide their meat breath during Lent.",
+      "category": "health",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/014.jpg",
+      "publishedAt": "13 hrs ago",
+      "readTimeSeconds": 82,
+      "tags": [
+        "Health",
+        "Inventions",
+        "Dating"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "015",
+      "headline": "Detective Kent Trent Solves Case of Bent Cent Spent on Scent in a Tent",
+      "summary": "The mystery was so convoluted that three writers quit trying to cover it.",
+      "fullBody": "Private investigator Kent Trent has cracked what local police are calling 'the most unnecessarily rhyming crime in history.' The case involved a bent penny, a suspicious perfume purchase, and a tent at a music festival. 'It was a scent well spent in a tent,' Trent explained, holding the damaged coin with tweezers. The culprit, a perfumer named Vent who lived in a tent, had been counterfeiting scents. 'I just wanted to make people smell like success,' Vent wept during the arrest. Trent was awarded a plaque and a lifetime supply of breath mints.",
+      "category": "crime",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/015.jpg",
+      "publishedAt": "14 hrs ago",
+      "readTimeSeconds": 96,
+      "tags": [
+        "Crime",
+        "Mystery",
+        "Wordplay"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "016",
+      "headline": "Clown Brown Crown Drowns in Town Gown While Frowning at a Downed Hound",
+      "summary": "The incident was tragic yet grammatically impressive; the hound is fine.",
+      "fullBody": "Barnaby 'Brown Crown' Clown, a street performer known for his oversized headwear, accidentally fell into a fountain while performing at the Town Gown festival. 'He was frowning at a dog that had fallen down,' explained witness Lynn Finn. 'Then he went down too. It was a whole lot of down.' The hound, a basset named Hound, was unharmed and reportedly enjoyed the splash. Crown was rescued by paramedics and is recovering at St. Frown Hospital. He has vowed to switch to lighter headwear and 'only smile at dogs from now on.'",
+      "category": "local",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/016.jpg",
+      "publishedAt": "15 hrs ago",
+      "readTimeSeconds": 90,
+      "tags": [
+        "Local News",
+        "Accident",
+        "Animals"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "017",
+      "headline": "Writer Wright Knight Fights for Right to Write Light Plight at Night",
+      "summary": "The literary community is split; some call it a bright fight, others a fright.",
+      "fullBody": "Novelist Wright Knight has petitioned the Writers' Guild for the right to exclusively write about 'light plights'—minor inconveniences occurring after dark. 'Someone needs to chronicle the tragedy of stubbing your toe at 2 AM,' Knight argued, brandishing a 900-page manuscript titled 'The Night Light Fright.' The guild is divided: traditionalists want to preserve the right to write about heavy plights, while millennials support Knight's 'relatable content.' A compromise may allow 'medium plights' during twilight hours. Knight plans to appeal, claiming the decision is 'not quite right.'",
+      "category": "arts",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/017.jpg",
+      "publishedAt": "16 hrs ago",
+      "readTimeSeconds": 94,
+      "tags": [
+        "Literature",
+        "Debate",
+        "Wordplay"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "018",
+      "headline": "Chef Shep Pepp Opens Repp Step, a Restaurant Where You Prep Peppers in a Pep Step",
+      "summary": "Diners must chop their own vegetables; the concept is surprisingly popular.",
+      "fullBody": "Shep Pepp, a culinary innovator with a lisp and a dream, has opened Repp Step, a farm-to-table restaurant where patrons prepare their own peppers in a choreographed 'Pep Step' routine. 'Food tastes better when you sweat for it,' Pepp said, demonstrating the three-step pepper chop. Customers, wearing custom aprons, dance-chop jalapeños to a beat while Pepp raps about vitamin C. The restaurant has a three-month waitlist, though the ER next door has also seen increased traffic. 'Worth it,' said diner Deb Webb, clutching an ice pack. 'The salsa was transcendent.'",
+      "category": "food",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/018.jpg",
+      "publishedAt": "17 hrs ago",
+      "readTimeSeconds": 88,
+      "tags": [
+        "Food",
+        "Restaurant",
+        "Dance"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "019",
+      "headline": "Librarian Mary Carey Declares Library a 'Scary Fairy Dairy' for Stories",
+      "summary": "Children are confused but delighted; parents are just confused.",
+      "fullBody": "Mary Carey, head librarian at the Carey Public Library, has rebranded the children's section as the 'Scary Fairy Dairy,' where milk-themed fairy tales are told by a 'slightly scary' volunteer in a cow costume. 'Literacy should be an adventure,' Carey explained, adjusting her horn headband. The program features stories like 'The Three Little Cows and the Big Bad Haystack' and 'Cinderella's Glass Milk Bottle.' Attendance has tripled, though a local dairy farmer has filed a complaint about 'unfair representation of bovine intelligence.' Carey is unapologetic: 'Reading is udderly important.'",
+      "category": "education",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/019.jpg",
+      "publishedAt": "18 hrs ago",
+      "readTimeSeconds": 85,
+      "tags": [
+        "Education",
+        "Library",
+        "Children"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "020",
+      "headline": "Plumber Ben Glenn Discovers Yen Well Under Dell Cell; Sells Smell for a Spell",
+      "summary": "The well emits a fragrance of old money and regret; buyers are lining up.",
+      "fullBody": "Ben Glenn, a plumber with a nose for opportunity, discovered a forgotten well beneath a cellular tower in Dell Valley. The well, which emits a 'rich, musky aroma of ancient currency,' has been bottled and sold as 'Yen Well Essence.' 'It smells like a million bucks,' Glenn said, holding a $200 vial. Buyers include celebrities and cryptocurrency investors seeking 'grounded wealth energy.' Skeptics claim it's just mildew and marketing, but Glenn has already purchased a yacht named 'Smell Spell.' The cell tower's owner, Nell Bell, is suing for a percentage, claiming the well is on her 'smell property.'",
+      "category": "business",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/020.jpg",
+      "publishedAt": "19 hrs ago",
+      "readTimeSeconds": 97,
+      "tags": [
+        "Business",
+        "Weird",
+        "Discovery"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "021",
+      "headline": "Coach Roach Boasts That His Approach to Coaching is Beyond Reproach",
+      "summary": "The team still loses every game, but their self-esteem is impeccable.",
+      "fullBody": "Coach Reginald Roach, head of the Roach Roaches high school football team, has defended his 0-47 record by claiming his 'approach is beyond reproach.' 'We don't focus on winning,' Roach explained during a press conference in the school cafeteria. 'We focus on being good people who occasionally wear helmets.' The team has become a local legend, with fans attending games ironically. Last week's match ended 84-0, but the Roaches earned a standing ovation for helping an opposing player tie his shoe. 'We're building character,' Roach insisted, while the scoreboard wept.",
+      "category": "sports",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/021.jpg",
+      "publishedAt": "20 hrs ago",
+      "readTimeSeconds": 83,
+      "tags": [
+        "Sports",
+        "Education",
+        "Inspiration"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "022",
+      "headline": "Dr. Dee Lee's 'See-Through Flea Fee' Lets You View Fleas for Free in 3D",
+      "summary": "The veterinary breakthrough is itchy but educational; schools are booking field trips.",
+      "fullBody": "Dr. Dee Lee, a veterinary researcher with too much funding, has developed the 'See-Through Flea,' a genetically modified parasite that is fully transparent and visible to the naked eye. 'Education shouldn't be flea-bitten,' Lee said, releasing a jar of invisible fleas onto a shocked audience. The creatures, which glow slightly under UV light, have become popular in classrooms. However, three schools have reported accidental infestations, and one principal had to be treated for 'phantom itch syndrome.' Lee is now working on 'See-Through Ticks' but admits 'the name doesn't work as well.'",
+      "category": "science",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/022.jpg",
+      "publishedAt": "21 hrs ago",
+      "readTimeSeconds": 91,
+      "tags": [
+        "Science",
+        "Education",
+        "Animals"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "023",
+      "headline": "Mayor Fay Gray's 'Ray Day' Law Delayed After Gray Jay Sprayed with Gray Clay",
+      "summary": "The bird was fine, but the optics were terrible; PR team in disarray.",
+      "fullBody": "Mayor Fay Gray's controversial 'Ray Day' initiative suffered a PR setback when a gray jay was accidentally sprayed with gray clay during a promotional photoshoot. 'We were trying to make the bird look more cheerful,' explained spokesperson Jay Clay. The bird, now a statue-like gray, was unharmed but deeply offended, according to ornithologists. Animal rights groups have called the incident 'avian abuse,' while Gray's opponents claim it proves the mayor is 'out of touch with nature and color theory.' The mayor has postponed the law and adopted the clay-covered bird as a pet named 'Clay Jay.'",
+      "category": "politics",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/023.jpg",
+      "publishedAt": "22 hrs ago",
+      "readTimeSeconds": 87,
+      "tags": [
+        "Politics",
+        "Animals",
+        "PR"
+      ],
+      "isBreaking": true
+    },
+    {
+      "id": "024",
+      "headline": "Gardener Parker Harker Plants Darker Parker in Marker for a Starker Larker",
+      "summary": "The landscaping project is incomprehensible but visually striking; tourists are flocking.",
+      "fullBody": "Parker Harker, a landscape artist with a thesaurus addiction, has created a garden installation so linguistically dense that visitors need a guidebook. 'I planted a darker parker in a marker for a starker larker,' Harker explained, gesturing at what appears to be a bush inside a parking space outlined in marker, surrounded by scarecrows. Art critics have called it 'post-semantic horticulture.' The town of Marker, Arkansas, has seen a 400% increase in tourism, mostly from confused English majors. Harker's next project involves a 'sharper carper' in a 'harper tarpaper.' Local officials are pretending to understand.",
+      "category": "arts",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/024.jpg",
+      "publishedAt": "23 hrs ago",
+      "readTimeSeconds": 99,
+      "tags": [
+        "Art",
+        "Gardening",
+        "Tourism"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "025",
+      "headline": "Banker Frank Shank's Prank Tank Sank After He Thanked a Rank Crank in a Yank",
+      "summary": "The financial instrument was actually a fish tank; regulators are baffled.",
+      "fullBody": "Frank Shank, an investment banker with a mischievous streak, created the 'Prank Tank,' a fake investment vehicle that was literally a fish tank filled with rubber ducks. 'I wanted to see if anyone would read the fine print,' Shank admitted, after the tank 'sank' during a presentation. The problem began when he thanked a 'rank crank' (a disgruntled engineer) for 'yanking' the plug, revealing the water-filled tank. Three investors fainted, one laughed so hard he needed oxygen, and the SEC launched an investigation into 'aquatic securities fraud.' Shank has been sentenced to teach financial literacy at a community pool.",
+      "category": "business",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/025.jpg",
+      "publishedAt": "1 day ago",
+      "readTimeSeconds": 95,
+      "tags": [
+        "Business",
+        "Prank",
+        "Finance"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "026",
+      "headline": "Vet Brett Chet's Pet Jet Lets Pets Set Bets on Wet Vets in a Net",
+      "summary": "The in-flight gambling service for animals is surprisingly popular among pigeons.",
+      "fullBody": "Dr. Brett Chet, a veterinarian with aviation ambitions, has launched 'Pet Jet,' an airline where animals can gamble on which vet will get soaked during in-flight water emergencies. 'Pets deserve entertainment too,' Chet said, while a parrot placed a bet on 'Wet Vet Number Three.' The service, accessible via paw-friendly touchscreens, has been embraced by pigeons, who are 'natural gamblers,' according to ornithologist Dr. Lett Mett. The FAA is reviewing whether animals can legally place bets, but Chet argues it's 'just pecking on glass, not gambling.' A class-action lawsuit has been filed by a goldfish who claims the water odds were 'fishy.'",
+      "category": "animals",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/026.jpg",
+      "publishedAt": "1 day ago",
+      "readTimeSeconds": 93,
+      "tags": [
+        "Animals",
+        "Aviation",
+        "Gambling"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "027",
+      "headline": "Painter Painter Fainter Paints Painter Fainter in a Tainter; Result is Tainter",
+      "summary": "The meta-art piece caused the artist to faint; critics call it 'peak performance art.'",
+      "fullBody": "Pat Painter, who legally changed their name to 'Painter Fainter,' has created a self-portrait while sitting in a tainter gate (a type of dam structure) that is so meta it caused the artist to faint. 'I painted a painter fainter in a tainter,' Fainter explained from a hospital bed. 'The tainter made me tainter, and I fainted.' The piece, which is literally just a photo of Fainter unconscious in a dam, sold for $300,000 to a collector who 'appreciates recursive art.' The local water authority is less pleased, billing Fainter $5,000 for 'unauthorized use of infrastructure.' Fainter plans to appeal, claiming the gate was 'just asking to be tainted.'",
+      "category": "arts",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/027.jpg",
+      "publishedAt": "1 day ago",
+      "readTimeSeconds": 101,
+      "tags": [
+        "Art",
+        "Weird",
+        "Meta"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "028",
+      "headline": "Rapper Clapper Snapper's 'Dapper Wrapper' Rap Traps Lapper in a Napper",
+      "summary": "The song is so catchy that listeners literally can't stop clapping; OSHA is involved.",
+      "fullBody": "Clarence 'Clapper Snapper' Trapper, a rapper known for onomatopoeic beats, has released 'Dapper Wrapper,' a track so rhythmically infectious that listeners report uncontrollable clapping for hours. 'I just wanted to make people snap,' Snapper said, while his manager applied ice to his own exhausted hands. The song has been banned in three factories after workers couldn't stop clapping near heavy machinery. One listener, Deb Webb, was found asleep in a recliner ('napper') after clapping herself into exhaustion. 'I couldn't stop,' she mumbled, still clapping weakly. Snapper is working on a follow-up, 'Napper Wrapper,' which he promises will be 'less physically demanding.'",
+      "category": "entertainment",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/028.jpg",
+      "publishedAt": "1 day ago",
+      "readTimeSeconds": 89,
+      "tags": [
+        "Music",
+        "Health",
+        "Weird"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "029",
+      "headline": "Sailor Taylor Sailor's Hailer Fails to Mail a Pail of Snail Tail to a Rail Jail",
+      "summary": "The postal service is investigating; the snails are unharmed but delayed.",
+      "fullBody": "Captain Taylor Sailor, a retired naval officer turned eccentric mailman, attempted to ship a pail of preserved snail tails to a model train jail ('rail jail') using a broken fog horn ('hailer') as packaging. 'I thought the horn would protect the pail,' Sailor explained to postal inspectors. The package was intercepted in Kansas, where workers were baffled by the combination of marine equipment and gastropod appendages. The snails, which were not actually alive, are being held as evidence. The intended recipient, Warden Dale Gale of the Rail Jail Miniature Museum, expressed disappointment: 'I needed those tails for the prisoners' rations.' Sailor has been banned from all USPS facilities and three maritime museums.",
+      "category": "local",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/029.jpg",
+      "publishedAt": "1 day ago",
+      "readTimeSeconds": 94,
+      "tags": [
+        "Local News",
+        "Mail",
+        "Weird"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "030",
+      "headline": "Baker Quaker Staker's 'Shaker Maker' Bakes a Faker Taker into a Raker",
+      "summary": "The bread was so realistic that a thief tried to steal it; the rake was unimpressed.",
+      "fullBody": "Quincy 'Quaker Staker' Baker, a religious baker with a vendetta against thieves, has created the 'Shaker Maker,' a bread oven that bakes loaves shaped like valuable items. 'I baked a faker taker into a raker,' Baker explained, showing a sourdough sculpture of a burglar holding a rake. The piece was so realistic that an actual thief attempted to steal it, only to be raked by the actual rake that Baker had hidden inside. 'The raker raked the faker,' Baker chuckled, while police filled out reports in confused silence. The thief is recovering from minor rake wounds and has been charged with 'attempted gluten theft.' Baker is now working on a 'Caker' that looks like a lawyer.",
+      "category": "food",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/030.jpg",
+      "publishedAt": "1 day ago",
+      "readTimeSeconds": 96,
+      "tags": [
+        "Food",
+        "Crime",
+        "Art"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "031",
+      "headline": "Dr. Drew Blue's 'True Glue' Sticks Two Shoe Crews into a Stew of Dew",
+      "summary": "The adhesive is so strong it accidentally fused two rival dance troupes; they're now one super-troupe.",
+      "fullBody": "Dr. Drew Blue, a chemist with a penchant for puns, has invented 'True Glue,' an adhesive so powerful it can bond anything. During a demonstration, two rival 'shoe crews' (tap dance troupes) got stuck together in a puddle of morning dew that had been treated with the glue. 'We were just doing a stew of dew,' Blue explained, as 40 dancers hopped in unison toward a single dressing room. Rather than separate, the crews have embraced their fusion, creating a new style called 'stuck-step.' They're now touring as 'The True Glue Crew' and have a residency in Las Vegas. Blue is being sued by both original troupes but claims 'they're bonded for life now.'",
+      "category": "science",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/031.jpg",
+      "publishedAt": "1 day ago",
+      "readTimeSeconds": 92,
+      "tags": [
+        "Science",
+        "Dance",
+        "Invention"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "032",
+      "headline": "Miner Miner Einer Finds Finer Diner in a Liner Under a Shiner",
+      "summary": "The underground restaurant serves only canned goods; critics are surprisingly kind.",
+      "fullBody": "Ernest 'Miner Miner' Einer, a coal miner with culinary dreams, discovered a vintage dining car ('liner') buried 200 feet underground while chasing a shiny rock ('shiner'). 'I found a finer diner in a liner,' Einer announced, covered in coal dust and excitement. The car, which serves as a restaurant, offers only canned goods because 'that's what survived the burial.' Despite the limited menu, food critics have praised the 'earthy ambiance' and 'unbeatable isolation.' Reservations are booked through 2028. Einer is now searching for a 'shiner winery' to complete the experience. OSHA has expressed concern but admits 'the reviews are glowing.'",
+      "category": "food",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/032.jpg",
+      "publishedAt": "1 day ago",
+      "readTimeSeconds": 88,
+      "tags": [
+        "Food",
+        "Discovery",
+        "Restaurant"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "033",
+      "headline": "Fisher Fisher Dishwasher Catches a Wish-Wash in a Swish-Squash",
+      "summary": "The fish was so confused it granted three wishes; two were wasted on soap.",
+      "fullBody": "Fisher Fisher, a commercial fisherman who moonlights as a dishwasher, claims to have caught a 'wish-wash'—a magical fish that grants wishes but only in the context of cleaning. 'I was washing dishes when I swished a squash and caught it,' Fisher explained, holding a very normal-looking trout. The fish allegedly granted three wishes: Fisher's first two were 'unlimited soap' and 'a sponge that never smells.' By the third wish, he realized his mistake and asked for 'a better understanding of wish economics.' The fish disappeared in a bubble of suds. Fisher is now writing a book, 'Wish-Wash: A Cautionary Tale,' and his dishes have never been cleaner.",
+      "category": "local",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/033.jpg",
+      "publishedAt": "1 day ago",
+      "readTimeSeconds": 91,
+      "tags": [
+        "Local News",
+        "Fishing",
+        "Magic"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "034",
+      "headline": "Nurse Purse Worse-for-Wear Curses a Diverse Hearse in Reverse; Universe Disperses",
+      "summary": "The incident defies physics and grammar; quantum physicists are taking notes.",
+      "fullBody": "Nurse Penny Purse, exhausted after a 36-hour shift, allegedly cursed a 'diverse hearse' (a multicultural funeral procession) that was driving in reverse, causing the universe to 'briefly disperse.' 'I was worse-for-wear and just cursed,' Purse explained, as scientists measured a 0.3-second fluctuation in local spacetime. The hearse, which was backing up due to a GPS error, experienced no harm, but three bystanders report 'feeling very spread out' for a moment. The universe has since re-converged, though astronomers note a slight wobble in Jupiter's orbit. Purse has been given two weeks off and a stern talking-to about 'the power of words.'",
+      "category": "science",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/034.jpg",
+      "publishedAt": "1 day ago",
+      "readTimeSeconds": 97,
+      "tags": [
+        "Science",
+        "Weird",
+        "Healthcare"
+      ],
+      "isBreaking": true
+    },
+    {
+      "id": "035",
+      "headline": "Judge Smudge Grudge Nudges a Fudge Budge in a Trudge; Pledge Sludge",
+      "summary": "The legal ruling was messy but binding; the courtroom needs new carpet.",
+      "fullBody": "Judge Morton 'Smudge' Grudge, known for his messy desk and grumpy demeanor, nudged a 'fudge budge' (a budget made of chocolate) during a long trial trudge, causing a 'pledge sludge' (a funding promise to melt). 'I nudged the budge and the pledge became sludge,' Grudge admitted, wiping chocolate from his gavel. The defendant, a candy manufacturer accused of tax evasion, was found guilty when the fudge budget revealed hidden accounts. The courtroom carpet, however, was declared a total loss. 'Justice is sweet but sticky,' Grudge ruled, sentencing the defendant to 200 hours of community service cleaning municipal buildings.",
+      "category": "crime",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/035.jpg",
+      "publishedAt": "1 day ago",
+      "readTimeSeconds": 90,
+      "tags": [
+        "Crime",
+        "Legal",
+        "Food"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "036",
+      "headline": "Hiker Biker Hiker-Biker Liker Striker Pikes a Dyke on a Trike to a Mike",
+      "summary": "The journey was unnecessary; the microphone was only 10 feet away.",
+      "fullBody": "Hiram 'Hiker-Biker' Liker, an enthusiast of both walking and cycling, decided to address a town meeting by riding a trike over a small dyke to reach a microphone ('Mike') that was already within walking distance. 'I like to make an entrance,' Liker explained, after crashing into the podium. The trike, which Liker had piked (modified) with hiking boots instead of wheels, was not designed for dykes. The microphone was unharmed, but Liker suffered a bruised ego and a bent pedal. The town council has since banned 'unnecessary vehicular entrances' and installed a sign: 'Mike is 10 feet away. Walk.'",
+      "category": "local",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/036.jpg",
+      "publishedAt": "1 day ago",
+      "readTimeSeconds": 86,
+      "tags": [
+        "Local News",
+        "Transportation",
+        "Accident"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "037",
+      "headline": "Grocer Kroger's 'Stroker Broker' Smoker Joker Pokes a Poker in a Coker",
+      "summary": "The tobacco-themed stock trading game is surprisingly addictive; the SEC is concerned.",
+      "fullBody": "Gerald Grocer, who bought a Kroger franchise as a joke, has created 'Stroker Broker,' a board game where players trade stocks while smoking and telling jokes. 'The smoker joker pokes a poker in a coker,' Grocer explained, demonstrating the game's bizarre mechanics. Players must smoke a cigar, tell a joke, and poke a poker chip into a coke oven-shaped board piece to make trades. The game has sold 50,000 copies, mostly to finance bros with irony poisoning. The SEC has launched an investigation into whether 'Stroker Broker' constitutes unlicensed securities trading. Grocer's defense: 'It's just a game, folks. The smoke is optional.' (It is not optional.)",
+      "category": "business",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/037.jpg",
+      "publishedAt": "1 day ago",
+      "readTimeSeconds": 94,
+      "tags": [
+        "Business",
+        "Games",
+        "Weird"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "038",
+      "headline": "Tailor Taylor's 'Sailer Mailer' Fails to Hail a Pailer in a Jailer's Jail",
+      "summary": "The clothing delivery service for prisoners used boats; it was poorly planned.",
+      "fullBody": "Taylor Tailor, a seamstress with a nautical obsession, launched 'Sailer Mailer,' a service delivering custom prison uniforms via small sailboats. 'I thought prisoners deserved fashion and fresh air,' Tailor explained, as her fourth boat was intercepted by coast guard. The service failed to 'hail a pailer' (attract a bucket-carrying dock worker) at the 'jailer's jail,' resulting in three escaped boats and one very confused manatee. The uniforms, made of waterproof canvas, are now popular among actual sailors. Tailor has pivoted to 'Sailer Tailor,' a maritime clothing line, and has promised to 'never jail-mail again.'",
+      "category": "business",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/038.jpg",
+      "publishedAt": "1 day ago",
+      "readTimeSeconds": 89,
+      "tags": [
+        "Business",
+        "Fashion",
+        "Crime"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "039",
+      "headline": "Driver Diver River-Liver Gives a Giver a Shiver with a Silver Sliver",
+      "summary": "The Uber driver moonlights as a surgeon; passengers are conflicted.",
+      "fullBody": "Derek 'River-Liver' Diver, an Uber driver who lives on a river and loves liver, gave a passenger the shivers by performing minor surgery with a silver sliver during a traffic jam. 'I'm also a giver,' Diver explained, showing his medical license from an unaccredited online school. The passenger, who needed a splinter removed, was initially grateful but became concerned when Diver used fishing line for stitches. 'He saved me $500 in ER bills,' the passenger admitted, 'but I think he used bait as antiseptic.' Diver has been suspended from Uber but hired by a local fishing charter as 'Dr. Diver, MD (Mostly Driving).'",
+      "category": "health",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/039.jpg",
+      "publishedAt": "1 day ago",
+      "readTimeSeconds": 93,
+      "tags": [
+        "Health",
+        "Transportation",
+        "Weird"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "040",
+      "headline": "Carpenter Harper's 'Sharper Carper' Harps on a Parper in a Draper Paper",
+      "summary": "The woodworking critic reviews curtains; the drapery industry is in turmoil.",
+      "fullBody": "Harriet Harper, a carpenter who moonlights as a 'sharper carper' (harsh critic), has published a scathing review of drapery in the Draper Paper, a textile industry newsletter. 'I harp on a parper in a draper paper,' Harper explained, confusing everyone. The review, which compares curtain rods to 'unfulfilled wooden dreams,' has caused a 15% drop in drapery sales. The Draper Paper's editor, Perry Draper, has begged Harper to stick to furniture. 'She called our best valance 'a fabric lie,' Draper wept. Harper is unrepentant: 'Wood is truth. Fabric is just wood that gave up.' She is currently being sued for 'defamation of drapes.'",
+      "category": "arts",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/040.jpg",
+      "publishedAt": "1 day ago",
+      "readTimeSeconds": 87,
+      "tags": [
+        "Art",
+        "Criticism",
+        "Business"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "041",
+      "headline": "Diver River Shiver's Liver Quiver Delivers a Fiver to a Hiver in a Viver",
+      "summary": "The underwater beekeeper paid a hive-dweller; the transaction was damp.",
+      "fullBody": "Diana 'River Shiver' Diver, an underwater beekeeper (she keeps bees on floating hives), delivered a five-dollar bill ('fiver') to a 'hiver' (beekeeper) in a 'viver' (a type of basket). 'My liver quivered when I saw the bees,' Diver admitted, though she insists the transaction was professional. The bees, confused by the damp currency, have begun constructing a honeycomb around the fiver. 'They're making money honey,' the hiver reported. Marine biologists are baffled by the combination of aquatics and apiculture. Diver plans to expand her business to 'river liver delivery'—floating meat markets for pescatarians.",
+      "category": "agriculture",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/041.jpg",
+      "publishedAt": "1 day ago",
+      "readTimeSeconds": 95,
+      "tags": [
+        "Agriculture",
+        "Weird",
+        "Business"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "042",
+      "headline": "Jester Lester's 'Mester Tester' Fester Bests a Nester in a Wrester's Vester",
+      "summary": "The comedy exam was so bad it grew on people; wrestling vests are involved.",
+      "fullBody": "Lester Jester, a court joker turned educator, created the 'Mester Tester,' a comedy exam that 'festers' (grows on you) until you laugh. The test recently 'bested' a 'nester' (bird researcher) wearing a 'wrester's vester' (wrestling vest). 'I was wearing the vester and taking the tester when the fester bested my chest,' the nester explained, still giggling. The exam, which involves answering questions with increasingly absurd puns, has a 40% pass rate but a 100% smile rate. Jester has been hired by three universities to reduce exam anxiety. 'If you can't beat the test, let the test beat you with joy,' he preaches.",
+      "category": "education",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/042.jpg",
+      "publishedAt": "1 day ago",
+      "readTimeSeconds": 90,
+      "tags": [
+        "Education",
+        "Comedy",
+        "Innovation"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "043",
+      "headline": "Boxer Knox's 'Ox Pox' Jox on a Fox in a Lox; Socks in a Cocks' Flocks",
+      "summary": "The chicken-themed boxing match was a fowl affair; the fox was the referee.",
+      "fullBody": "Knox Boxer, a pugilist with a poultry obsession, staged 'Ox Pox Jox'—a boxing match where fighters wear ox masks and the ring is surrounded by chickens ('cocks' flocks'). The referee, a man in a fox costume named Fox Lox, declared the match a draw after both boxers were distracted by the chickens. 'I jox on a fox in a lox,' Boxer explained, which means nothing. The event, held in a smokehouse ('lox'), raised $10,000 for chicken literacy. 'Chickens deserve to read,' Boxer insisted, while a rooster pecked at his championship belt. The boxing commission has banned 'animal-themed matches' but praised the 'socks in a cocks' flocks' fashion line.",
+      "category": "sports",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/043.jpg",
+      "publishedAt": "1 day ago",
+      "readTimeSeconds": 92,
+      "tags": [
+        "Sports",
+        "Animals",
+        "Charity"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "044",
+      "headline": "Weaver Beaver's 'Cleaver Fever' Seaver Leaves a Weaver in a Griever's Beaver",
+      "summary": "The textile factory's meat-themed break room caused a beaver uprising; grief counselors are on site.",
+      "fullBody": "Beatrice 'Beaver' Weaver, who runs a textile factory with a meat-themed break room called 'Cleaver Fever,' accidentally left a 'seaver' (a type of fish knife) in a 'griever's beaver' (a mourning person's hat). 'I seavered the beaver's fever cleaver,' Weaver explained, causing HR to call in grief counselors. The beaver, which is the factory mascot and also a real beaver named Cleaver, became feverish after eating the break room's ham-scented wallpaper. 'He's grieving the loss of his dam-themed break room,' a counselor explained. The factory has returned to standard decor, but Cleaver the Beaver still demands meat-flavored thread. 'Weavers gotta weave,' Weaver sighed, feeding him bacon yarn.",
+      "category": "business",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/044.jpg",
+      "publishedAt": "1 day ago",
+      "readTimeSeconds": 98,
+      "tags": [
+        "Business",
+        "Animals",
+        "Workplace"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "045",
+      "headline": "Ranger Granger's 'Stranger Danger' Manger Changes a Ranger into a Wranger",
+      "summary": "The nativity-scene security system works too well; three wise men were detained.",
+      "fullBody": "Forest Ranger Greg Granger invented 'Stranger Danger Manger,' a security system for nativity scenes that alerts authorities when unfamiliar figures approach. 'It changes a ranger into a wrangler,' Granger explained, demonstrating how the system lassoed a suspicious shepherd. The system worked too well at the Bethlehem Mall, where it detained three men carrying gifts, a drummer boy, and a confused camel. 'We thought they were stealing the baby Jesus,' Granger admitted, releasing the wise men with gift cards. The camel is still in custody pending identification. Granger has since added a 'wise man whitelist' and a 'no-lasso' setting for livestock.",
+      "category": "tech",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/045.jpg",
+      "publishedAt": "1 day ago",
+      "readTimeSeconds": 91,
+      "tags": [
+        "Tech",
+        "Security",
+        "Religion"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "046",
+      "headline": "Poet Poe's 'Toe Show' Blows a Pro's Nose in a Rose; Crows in Rows Expose a Hose",
+      "summary": "The foot-themed poetry slam was interrupted by birds and plumbing; critics loved it.",
+      "fullBody": "Edgar 'Poe' Poet hosted a 'Toe Show'—a poetry slam about feet—that was interrupted when a professional ('pro') sneezed into a rose, attracting crows that arranged themselves in rows and exposed a broken hose. 'The crows in rows exposed the hose during my toe show,' Poe recited, improvising. The chaos was so aesthetically pleasing that art critics declared it 'post-structuralist performance.' The pro, a ballerina with allergies, received a standing ovation for her sneeze. The crows have been hired for Poe's next show, 'Crow Row: A Flow.' The hose remains broken but is now considered part of the set design.",
+      "category": "arts",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/046.jpg",
+      "publishedAt": "1 day ago",
+      "readTimeSeconds": 89,
+      "tags": [
+        "Art",
+        "Poetry",
+        "Animals"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "047",
+      "headline": "Crier Drier's 'Frier Flier' Trier Dyes a Trier in a Drier; Buyers Cry a Liar",
+      "summary": "The laundry-themed restaurant served dyed clothes; customers expected food.",
+      "fullBody": "Craig 'Crier' Drier opened 'Frier Flier,' a restaurant that serves only fried fliers (leaflets) and dyes clothes in the dryers. 'I trier dyes a trier in a drier,' Drier explained, which is his business model. Customers, expecting food, were instead given tie-dyed laundry and crispy paper. 'He cried he was a fryer, but he's just a drier liar,' complained buyer Mya Fryer. The health department shut down the establishment, but not before Drier sold 200 'vintage dyed tees' to confused hipsters. 'I thought it was ironic,' said one customer, wearing a shirt dyed in ketchup. Drier is planning a 'Crier Drier' laundromat where employees weep while folding.",
+      "category": "food",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/047.jpg",
+      "publishedAt": "1 day ago",
+      "readTimeSeconds": 94,
+      "tags": [
+        "Food",
+        "Business",
+        "Weird"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "048",
+      "headline": "Skier's Sneer at a Freer Queer in a Beer Pier; Leer Seers Steer Clear of a Sheer Sphere",
+      "summary": "The ski resort's LGBTQ+ beer garden was so popular it became a tourist attraction; geometry enthusiasts are confused.",
+      "fullBody": "A skier's sneer at a 'freer queer' (budget-friendly LGBTQ+ patron) in a 'beer pier' (floating bar) at Alpine Queer Resort caused 'leer seers' (judgmental onlookers) to steer clear of a 'sheer sphere' (transparent disco ball). 'The sheer sphere made the seers steer clear of the queer beer pier,' explained resort owner Mx. Sheer. The sneering skier was actually sneering at the cold, not the patrons, but the misunderstanding made the resort a viral sensation. The sheer sphere has been named an official landmark. 'Geometry is gay culture now,' Sheer declared, while mathematicians protested the 'inaccurate use of sheer.' The skier has apologized and opened a 'Sneer-Free Queer Beer Pier' franchise.",
+      "category": "lifestyle",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/048.jpg",
+      "publishedAt": "1 day ago",
+      "readTimeSeconds": 96,
+      "tags": [
+        "Lifestyle",
+        "LGBTQ",
+        "Travel"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "049",
+      "headline": "Mason Dason's 'Bason Rason' Season Reason Treason in a Gason's Eason",
+      "summary": "The bricklayer's podcast about soup-related betrayals has 2 million subscribers; no one understands why.",
+      "fullBody": "Mason Dason, a bricklayer with a microphone, hosts 'Bason Rason,' a podcast investigating 'season reason treason' in the soup industry. 'I season the reason for the treason in a gason's eason,' Dason explains every episode, referring to gas station soup season. The podcast, which accuses Campbell's of 'broth betrayal,' has 2 million subscribers who 'don't really get it but can't stop listening.' Dason's evidence includes a 1987 memo about reducing noodle counts. 'That's treason,' Dason insists, while soup historians point out that 'gason' isn't a word. The podcast has been optioned for a Netflix series starring a soup can.",
+      "category": "entertainment",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/049.jpg",
+      "publishedAt": "1 day ago",
+      "readTimeSeconds": 88,
+      "tags": [
+        "Entertainment",
+        "Podcast",
+        "Food"
+      ],
+      "isBreaking": false
+    },
+    {
+      "id": "050",
+      "headline": "Warden Harden's 'Garden Pardon' Lardons a Hard-on for a Bard in a Yard; Card Fard",
+      "summary": "The prison's horticulture therapy program got weird; Shakespeare is banned from the yard.",
+      "fullBody": "Warden Hank Harden's 'Garden Pardon' program, where inmates grow vegetables for early release, took a strange turn when a 'bard in a yard' (Shakespearean actor doing community service) inspired a 'hard-on' for poetry among the prisoners. 'I lardoned a hard-on for a bard in a yard,' Harden explained, meaning he excused the behavior. The inmates began performing 'Romeo and Juliet' using turnips as puppets. The 'card fard' (playing card fart) incident, in which a prisoner used a trump card to make a raspberry sound during the balcony scene, caused Harden to ban Shakespeare from the yard. 'No more bards, no more cards, just carrots,' Harden ruled. The turnip puppet troupe is now underground.",
+      "category": "crime",
+      "imageUrl": "https://raw.githubusercontent.com/factictionary/news-content/main/images/2026-07-06/050.jpg",
+      "publishedAt": "1 day ago",
+      "readTimeSeconds": 93,
+      "tags": [
+        "Crime",
+        "Arts",
+        "Gardening"
+      ],
+      "isBreaking": false
+    }
+  ]
+}
